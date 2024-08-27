@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{212973D9-FCE4-4A9C-994B-E6C39206E26E}|MenStore\\MenStore.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{212973D9-FCE4-4A9C-994B-E6C39206E26E}|MenStore\\MenStore.csproj|solutionrelative:menstore\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.models\\ordermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\ordermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.application\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|solutionrelative:menstore.context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "RelativeToolTip": "MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T18:07:51.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\StoreContext.cs",
+              "RelativeDocumentMoniker": "MenStore.Context\\StoreContext.cs",
+              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\StoreContext.cs",
+              "RelativeToolTip": "MenStore.Context\\StoreContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:57:24.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore\\Form1.cs",
-              "RelativeDocumentMoniker": "MenStore\\Form1.cs",
-              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore\\Form1.cs [Design]",
-              "RelativeToolTip": "MenStore\\Form1.cs [Design]",
+              "Title": "OrderMaster.cs",
+              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderMaster.cs",
+              "RelativeDocumentMoniker": "MenStore.Models\\OrderMaster.cs",
+              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderMaster.cs",
+              "RelativeToolTip": "MenStore.Models\\OrderMaster.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T17:43:53.473Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-27T15:54:13.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "MenStore.Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderDetail.cs",
+              "RelativeToolTip": "MenStore.Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:53:05.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

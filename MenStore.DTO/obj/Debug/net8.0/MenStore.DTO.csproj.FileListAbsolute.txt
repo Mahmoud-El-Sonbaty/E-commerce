@@ -1,0 +1,12 @@
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\bin\Debug\net8.0\MenStore.DTO.deps.json
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\bin\Debug\net8.0\MenStore.DTO.dll
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\bin\Debug\net8.0\MenStore.DTO.pdb
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\obj\Debug\net8.0\MenStore.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\obj\Debug\net8.0\MenStore.DTO.AssemblyInfoInputs.cache
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\obj\Debug\net8.0\MenStore.DTO.AssemblyInfo.cs
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\obj\Debug\net8.0\MenStore.DTO.csproj.CoreCompileInputs.cache
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\obj\Debug\net8.0\MenStore.DTO.sourcelink.json
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\obj\Debug\net8.0\MenStore.DTO.dll
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\obj\Debug\net8.0\refint\MenStore.DTO.dll
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\obj\Debug\net8.0\MenStore.DTO.pdb
+C:\Users\mahmo\source\repos\MenStore\MenStore.DTO\obj\Debug\net8.0\ref\MenStore.DTO.dll
