@@ -5,3 +5,5 @@ App.config
 *.pdb
 *.cache
 *.json
+/bin
+/obj
