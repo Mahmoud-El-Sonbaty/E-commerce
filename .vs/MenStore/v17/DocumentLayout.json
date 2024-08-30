@@ -1,22 +1,126 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\",
+  "WorkspaceRootPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.models\\ordermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\ordermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A68C653F-7F78-4629-8289-071D548E2574}|MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.presentationlayer\\productformforuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A68C653F-7F78-4629-8289-071D548E2574}|MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj|solutionrelative:menstore.presentationlayer\\productformforuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A68C653F-7F78-4629-8289-071D548E2574}|MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.presentationlayer\\productformforuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A68C653F-7F78-4629-8289-071D548E2574}|MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj|solutionrelative:menstore.presentationlayer\\productformforuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.application\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A68C653F-7F78-4629-8289-071D548E2574}|MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.presentationlayer\\menstore.presentationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A68C653F-7F78-4629-8289-071D548E2574}|MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj|solutionrelative:menstore.presentationlayer\\menstore.presentationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68C653F-7F78-4629-8289-071D548E2574}|MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.presentationlayer\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A68C653F-7F78-4629-8289-071D548E2574}|MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj|solutionrelative:menstore.presentationlayer\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.infrastructure\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|solutionrelative:menstore.infrastructure\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.infrastructure\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|solutionrelative:menstore.infrastructure\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.infrastructure\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|solutionrelative:menstore.infrastructure\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.infrastructure\\ordermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|solutionrelative:menstore.infrastructure\\ordermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|solutionrelative:menstore.context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.application\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|solutionrelative:menstore.context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.dto\\product\\getoneproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|solutionrelative:menstore.dto\\product\\getoneproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.context\\menstore.context.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|solutionrelative:menstore.context\\menstore.context.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.models\\menstore.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\menstore.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\Migrations\\20240830164447_productsv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MenStore.Context\\Migrations\\20240830164447_productsv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.dto\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|solutionrelative:menstore.dto\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.dto\\product\\getallproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|solutionrelative:menstore.dto\\product\\getallproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.application\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.application\\contracts\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\contracts\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.application\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.application\\contracts\\iordermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\contracts\\iordermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.application\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.models\\ordermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\ordermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.context\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|solutionrelative:menstore.context\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.dto\\menstore.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|solutionrelative:menstore.dto\\menstore.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|b:\\iti courses\\vs_c#\\project\\men-store\\menstore.application\\menstore.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\menstore.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68C653F-7F78-4629-8289-071D548E2574}|MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj|B:\\ITI courses\\VS_C#\\project\\Men-Store\\menstore.presentationlayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A68C653F-7F78-4629-8289-071D548E2574}|MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj|solutionrelative:menstore.presentationlayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +130,391 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\Mapper\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "MenStore.Application\\Mapper\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\Mapper\\AutoMapperProfile.cs",
-              "RelativeToolTip": "MenStore.Application\\Mapper\\AutoMapperProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABIAAAA",
+              "DocumentIndex": 1,
+              "Title": "ProductFormForUser.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.PresentationLayer\\ProductFormForUser.cs",
+              "RelativeDocumentMoniker": "MenStore.PresentationLayer\\ProductFormForUser.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.PresentationLayer\\ProductFormForUser.cs",
+              "RelativeToolTip": "MenStore.PresentationLayer\\ProductFormForUser.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAD4vxoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T18:07:51.094Z",
+              "WhenOpened": "2024-08-30T17:32:58.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "ProductFormForUser.cs [Design]",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.PresentationLayer\\ProductFormForUser.cs",
+              "RelativeDocumentMoniker": "MenStore.PresentationLayer\\ProductFormForUser.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.PresentationLayer\\ProductFormForUser.cs [Design]",
+              "RelativeToolTip": "MenStore.PresentationLayer\\ProductFormForUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:04:39.968Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Infrastructure\\ProductRepository.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\ProductRepository.cs",
+              "RelativeToolTip": "MenStore.Infrastructure\\ProductRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:27:27.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "RelativeToolTip": "MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T20:12:38.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "StoreContext.cs",
-              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\StoreContext.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\StoreContext.cs",
               "RelativeDocumentMoniker": "MenStore.Context\\StoreContext.cs",
-              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\StoreContext.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\StoreContext.cs",
               "RelativeToolTip": "MenStore.Context\\StoreContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA8AAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T15:57:24.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "OrderMasterRepository.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\OrderMasterRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Infrastructure\\OrderMasterRepository.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\OrderMasterRepository.cs",
+              "RelativeToolTip": "MenStore.Infrastructure\\OrderMasterRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:27:49.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Infrastructure\\OrderDetailRepository.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\OrderDetailRepository.cs",
+              "RelativeToolTip": "MenStore.Infrastructure\\OrderDetailRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwCQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:27:57.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Genericrepository.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\Genericrepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Infrastructure\\Genericrepository.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\Genericrepository.cs",
+              "RelativeToolTip": "MenStore.Infrastructure\\Genericrepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAIA2wBwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T13:16:46.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "productsForm.cs [Design]",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.PresentationLayer\\productsForm.cs",
+              "RelativeDocumentMoniker": "MenStore.PresentationLayer\\productsForm.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.PresentationLayer\\productsForm.cs [Design]",
+              "RelativeToolTip": "MenStore.PresentationLayer\\productsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:48:26.226Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenStore.PresentationLayer.csproj",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj",
+              "RelativeDocumentMoniker": "MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj",
+              "RelativeToolTip": "MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-28T15:29:02.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetOneProductDTO.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\Product\\GetOneProductDTO.cs",
+              "RelativeDocumentMoniker": "MenStore.DTO\\Product\\GetOneProductDTO.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\Product\\GetOneProductDTO.cs",
+              "RelativeToolTip": "MenStore.DTO\\Product\\GetOneProductDTO.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvw0AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T00:48:06.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MenStore.Context.csproj",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\MenStore.Context.csproj",
+              "RelativeDocumentMoniker": "MenStore.Context\\MenStore.Context.csproj",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\MenStore.Context.csproj",
+              "RelativeToolTip": "MenStore.Context\\MenStore.Context.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-30T01:39:38.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240830164447_productsv2.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\Migrations\\20240830164447_productsv2.cs",
+              "RelativeDocumentMoniker": "MenStore.Context\\Migrations\\20240830164447_productsv2.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\Migrations\\20240830164447_productsv2.cs",
+              "RelativeToolTip": "MenStore.Context\\Migrations\\20240830164447_productsv2.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:44:47.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "createProductDTO.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\Product\\createProductDTO.cs",
+              "RelativeDocumentMoniker": "MenStore.DTO\\Product\\createProductDTO.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\Product\\createProductDTO.cs",
+              "RelativeToolTip": "MenStore.DTO\\Product\\createProductDTO.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T19:16:16.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "getAllProductDTO.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\Product\\getAllProductDTO.cs",
+              "RelativeDocumentMoniker": "MenStore.DTO\\Product\\getAllProductDTO.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\Product\\getAllProductDTO.cs",
+              "RelativeToolTip": "MenStore.DTO\\Product\\getAllProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T19:34:01.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MenStore.Models",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj",
+              "RelativeDocumentMoniker": "MenStore.Models\\MenStore.Models.csproj",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj",
+              "RelativeToolTip": "MenStore.Models\\MenStore.Models.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-30T15:20:24.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Contracts\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Contracts\\IGenericRepository.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Contracts\\IGenericRepository.cs",
+              "RelativeToolTip": "MenStore.Application\\Contracts\\IGenericRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T15:45:41.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IOrderDetailRepository.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Contracts\\IOrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Contracts\\IOrderDetailRepository.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Contracts\\IOrderDetailRepository.cs",
+              "RelativeToolTip": "MenStore.Application\\Contracts\\IOrderDetailRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T15:45:37.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "product.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\product.cs",
+              "RelativeDocumentMoniker": "MenStore.Models\\product.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\product.cs",
+              "RelativeToolTip": "MenStore.Models\\product.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T15:47:29.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Contracts\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Contracts\\IProductRepository.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Contracts\\IProductRepository.cs",
+              "RelativeToolTip": "MenStore.Application\\Contracts\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T15:50:10.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IOrderMasterRepository.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Contracts\\IOrderMasterRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Contracts\\IOrderMasterRepository.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Contracts\\IOrderMasterRepository.cs",
+              "RelativeToolTip": "MenStore.Application\\Contracts\\IOrderMasterRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T15:45:36.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Services\\ProductService.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "MenStore.Application\\Services\\ProductService.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T16:32:24.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Services\\IProductService.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\Services\\IProductService.cs",
+              "RelativeToolTip": "MenStore.Application\\Services\\IProductService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAxwBYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T01:34:34.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "OrderMaster.cs",
-              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderMaster.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\OrderMaster.cs",
               "RelativeDocumentMoniker": "MenStore.Models\\OrderMaster.cs",
-              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderMaster.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\OrderMaster.cs",
               "RelativeToolTip": "MenStore.Models\\OrderMaster.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T15:54:13.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "MenStore.Models\\OrderDetail.cs",
-              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderDetail.cs",
-              "RelativeToolTip": "MenStore.Models\\OrderDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T15:53:05.15Z",
+              "DocumentIndex": 24,
+              "Title": "App.config",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\App.config",
+              "RelativeDocumentMoniker": "MenStore.Context\\App.config",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\App.config",
+              "RelativeToolTip": "MenStore.Context\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-30T08:17:04.242Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MenStore.DTO.csproj",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\MenStore.DTO.csproj",
+              "RelativeDocumentMoniker": "MenStore.DTO\\MenStore.DTO.csproj",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\MenStore.DTO.csproj",
+              "RelativeToolTip": "MenStore.DTO\\MenStore.DTO.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-28T18:56:40.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "MenStore.Models\\OrderDetail.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\OrderDetail.cs",
+              "RelativeToolTip": "MenStore.Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:36:54.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "State.cs",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\State.cs",
+              "RelativeDocumentMoniker": "MenStore.Models\\State.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\State.cs",
+              "RelativeToolTip": "MenStore.Models\\State.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T20:08:41.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MenStore.Application.csproj",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\MenStore.Application.csproj",
+              "RelativeDocumentMoniker": "MenStore.Application\\MenStore.Application.csproj",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\MenStore.Application.csproj",
+              "RelativeToolTip": "MenStore.Application\\MenStore.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-28T16:31:40.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.PresentationLayer\\Form1.cs",
+              "RelativeDocumentMoniker": "MenStore.PresentationLayer\\Form1.cs",
+              "ToolTip": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.PresentationLayer\\Form1.cs [Design]",
+              "RelativeToolTip": "MenStore.PresentationLayer\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T15:29:10.456Z"
             }
           ]
         }

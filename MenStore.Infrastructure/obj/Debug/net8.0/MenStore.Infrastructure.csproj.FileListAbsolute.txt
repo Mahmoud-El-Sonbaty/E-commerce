@@ -21,3 +21,26 @@ C:\Users\mahmo\source\repos\MenStore\MenStore.Infrastructure\obj\Debug\net8.0\Me
 C:\Users\mahmo\source\repos\MenStore\MenStore.Infrastructure\obj\Debug\net8.0\refint\MenStore.Infrastructure.dll
 C:\Users\mahmo\source\repos\MenStore\MenStore.Infrastructure\obj\Debug\net8.0\MenStore.Infrastructure.pdb
 C:\Users\mahmo\source\repos\MenStore\MenStore.Infrastructure\obj\Debug\net8.0\ref\MenStore.Infrastructure.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.Infrastructure.deps.json
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.Infrastructure.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.Infrastructure.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.Application.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.Context.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.DTO.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.Models.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.Application.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.Context.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.Context.dll.config
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.DTO.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\bin\Debug\net8.0\MenStore.Models.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\obj\Debug\net8.0\MenStore.Infrastructure.csproj.AssemblyReference.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\obj\Debug\net8.0\MenStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\obj\Debug\net8.0\MenStore.Infrastructure.AssemblyInfoInputs.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\obj\Debug\net8.0\MenStore.Infrastructure.AssemblyInfo.cs
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\obj\Debug\net8.0\MenStore.Infrastructure.csproj.CoreCompileInputs.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\obj\Debug\net8.0\MenStore.Infrastructure.sourcelink.json
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\obj\Debug\net8.0\MenStore.F1EA2A32.Up2Date
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\obj\Debug\net8.0\MenStore.Infrastructure.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\obj\Debug\net8.0\refint\MenStore.Infrastructure.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\obj\Debug\net8.0\MenStore.Infrastructure.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Infrastructure\obj\Debug\net8.0\ref\MenStore.Infrastructure.dll

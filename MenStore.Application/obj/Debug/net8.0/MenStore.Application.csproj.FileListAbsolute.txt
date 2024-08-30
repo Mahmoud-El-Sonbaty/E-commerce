@@ -16,3 +16,21 @@ C:\Users\mahmo\source\repos\MenStore\MenStore.Application\obj\Debug\net8.0\MenSt
 C:\Users\mahmo\source\repos\MenStore\MenStore.Application\obj\Debug\net8.0\refint\MenStore.Application.dll
 C:\Users\mahmo\source\repos\MenStore\MenStore.Application\obj\Debug\net8.0\MenStore.Application.pdb
 C:\Users\mahmo\source\repos\MenStore\MenStore.Application\obj\Debug\net8.0\ref\MenStore.Application.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\obj\Debug\net8.0\MenStore.Application.csproj.AssemblyReference.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\obj\Debug\net8.0\MenStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\obj\Debug\net8.0\MenStore.Application.AssemblyInfoInputs.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\obj\Debug\net8.0\MenStore.Application.AssemblyInfo.cs
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\obj\Debug\net8.0\MenStore.Application.csproj.CoreCompileInputs.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\obj\Debug\net8.0\MenStore.Application.sourcelink.json
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\obj\Debug\net8.0\MenStore.Application.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\obj\Debug\net8.0\refint\MenStore.Application.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\obj\Debug\net8.0\MenStore.Application.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\bin\Debug\net8.0\MenStore.Application.deps.json
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\bin\Debug\net8.0\MenStore.Application.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\bin\Debug\net8.0\MenStore.Application.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\bin\Debug\net8.0\MenStore.DTO.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\bin\Debug\net8.0\MenStore.Models.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\bin\Debug\net8.0\MenStore.DTO.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\bin\Debug\net8.0\MenStore.Models.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\obj\Debug\net8.0\MenStore.4D7B9757.Up2Date
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Application\obj\Debug\net8.0\ref\MenStore.Application.dll

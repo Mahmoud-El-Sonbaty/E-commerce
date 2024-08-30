@@ -15,3 +15,20 @@ C:\Users\mahmo\source\repos\MenStore\MenStore.PresentationLayer\obj\Debug\net8.0
 C:\Users\mahmo\source\repos\MenStore\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.pdb
 C:\Users\mahmo\source\repos\MenStore\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.genruntimeconfig.cache
 C:\Users\mahmo\source\repos\MenStore\MenStore.PresentationLayer\obj\Debug\net8.0-windows\ref\MenStore.PresentationLayer.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\bin\Debug\net8.0-windows\MenStore.PresentationLayer.exe
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\bin\Debug\net8.0-windows\MenStore.PresentationLayer.deps.json
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\bin\Debug\net8.0-windows\MenStore.PresentationLayer.runtimeconfig.json
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\bin\Debug\net8.0-windows\MenStore.PresentationLayer.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\bin\Debug\net8.0-windows\MenStore.PresentationLayer.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.Form1.resources
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.csproj.GenerateResource.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.AssemblyInfoInputs.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.AssemblyInfo.cs
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.csproj.CoreCompileInputs.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.sourcelink.json
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\refint\MenStore.PresentationLayer.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\MenStore.PresentationLayer.genruntimeconfig.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.PresentationLayer\obj\Debug\net8.0-windows\ref\MenStore.PresentationLayer.dll

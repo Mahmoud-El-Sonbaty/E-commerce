@@ -17,3 +17,22 @@ C:\Users\mahmo\source\repos\MenStore\MenStore.Context\bin\Debug\net8.0\MenStore.
 C:\Users\mahmo\source\repos\MenStore\MenStore.Context\obj\Debug\net8.0\MenStore.Context.csproj.AssemblyReference.cache
 C:\Users\mahmo\source\repos\MenStore\MenStore.Context\obj\Debug\net8.0\MenStore.D724ED3F.Up2Date
 C:\Users\mahmo\source\repos\MenStore\MenStore.Context\obj\Debug\net8.0\MenStore.Context.genruntimeconfig.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\bin\Debug\net8.0\MenStore.Context.dll.config
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\bin\Debug\net8.0\MenStore.Context.deps.json
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\bin\Debug\net8.0\MenStore.Context.runtimeconfig.json
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\bin\Debug\net8.0\MenStore.Context.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\bin\Debug\net8.0\MenStore.Context.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\bin\Debug\net8.0\MenStore.Models.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\bin\Debug\net8.0\MenStore.Models.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\MenStore.Context.csproj.AssemblyReference.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\MenStore.Context.GeneratedMSBuildEditorConfig.editorconfig
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\MenStore.Context.AssemblyInfoInputs.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\MenStore.Context.AssemblyInfo.cs
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\MenStore.Context.csproj.CoreCompileInputs.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\MenStore.Context.sourcelink.json
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\MenStore.D724ED3F.Up2Date
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\MenStore.Context.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\refint\MenStore.Context.dll
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\MenStore.Context.pdb
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\MenStore.Context.genruntimeconfig.cache
+B:\ITI courses\VS_C#\project\Men-Store\MenStore.Context\obj\Debug\net8.0\ref\MenStore.Context.dll

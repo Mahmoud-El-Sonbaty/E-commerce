@@ -9,7 +9,7 @@ namespace MenStore.Models
     public class OrderDetail
     {
         public int Id { get; set; }
-        //public int OrderMasterId => this.OrderMaster.Id;
+        //public int OrderMasterId => this.OrderMaster.Id; 
         public int OrderMasterId { get; set; }
         public OrderMaster OrderMaster { get; set; }
         //public int ProductId { get; set; }

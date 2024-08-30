@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Infrastructure\\MenStore.Infrastructure.csproj": {}
+    "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\MenStore.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\MenStore.Application.csproj": {
+    "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\MenStore.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\MenStore.Application.csproj",
+        "projectUniqueName": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\MenStore.Application.csproj",
         "projectName": "MenStore.Application",
-        "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\MenStore.Application.csproj",
-        "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\obj\\",
+        "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\MenStore.Application.csproj",
+        "packagesPath": "C:\\Users\\ELGHOUL\\.nuget\\packages\\",
+        "outputPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ELGHOUL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.DTO\\MenStore.DTO.csproj": {
-                "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.DTO\\MenStore.DTO.csproj"
+              "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\MenStore.DTO.csproj": {
+                "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\MenStore.DTO.csproj"
               },
-              "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj": {
-                "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj"
+              "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj": {
+                "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj"
               }
             }
           }
@@ -78,17 +82,21 @@
         }
       }
     },
-    "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\MenStore.Context.csproj": {
+    "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\MenStore.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\MenStore.Context.csproj",
+        "projectUniqueName": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\MenStore.Context.csproj",
         "projectName": "MenStore.Context",
-        "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\MenStore.Context.csproj",
-        "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\obj\\",
+        "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\MenStore.Context.csproj",
+        "packagesPath": "C:\\Users\\ELGHOUL\\.nuget\\packages\\",
+        "outputPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ELGHOUL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,8 +111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj": {
-                "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj"
+              "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj": {
+                "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj"
               }
             }
           }
@@ -165,17 +173,21 @@
         }
       }
     },
-    "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.DTO\\MenStore.DTO.csproj": {
+    "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\MenStore.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.DTO\\MenStore.DTO.csproj",
+        "projectUniqueName": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\MenStore.DTO.csproj",
         "projectName": "MenStore.DTO",
-        "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.DTO\\MenStore.DTO.csproj",
-        "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.DTO\\obj\\",
+        "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\MenStore.DTO.csproj",
+        "packagesPath": "C:\\Users\\ELGHOUL\\.nuget\\packages\\",
+        "outputPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.DTO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ELGHOUL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -226,17 +238,21 @@
         }
       }
     },
-    "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Infrastructure\\MenStore.Infrastructure.csproj": {
+    "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\MenStore.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Infrastructure\\MenStore.Infrastructure.csproj",
+        "projectUniqueName": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\MenStore.Infrastructure.csproj",
         "projectName": "MenStore.Infrastructure",
-        "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Infrastructure\\MenStore.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Infrastructure\\obj\\",
+        "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\MenStore.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ELGHOUL\\.nuget\\packages\\",
+        "outputPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ELGHOUL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -251,11 +267,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\MenStore.Application.csproj": {
-                "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\MenStore.Application.csproj"
+              "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\MenStore.Application.csproj": {
+                "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Application\\MenStore.Application.csproj"
               },
-              "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\MenStore.Context.csproj": {
-                "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\MenStore.Context.csproj"
+              "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\MenStore.Context.csproj": {
+                "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\MenStore.Context.csproj"
               }
             }
           }
@@ -294,17 +310,21 @@
         }
       }
     },
-    "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj": {
+    "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj",
+        "projectUniqueName": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj",
         "projectName": "MenStore.Models",
-        "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj",
-        "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\obj\\",
+        "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj",
+        "packagesPath": "C:\\Users\\ELGHOUL\\.nuget\\packages\\",
+        "outputPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ELGHOUL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
