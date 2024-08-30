@@ -1,22 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\",
+  "WorkspaceRootPath": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.models\\ordermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\ordermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.infrastructure\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|solutionrelative:menstore.infrastructure\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.infrastructure\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|solutionrelative:menstore.infrastructure\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.application\\contracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\contracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.dto\\ordermaster\\getoneordermasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|solutionrelative:menstore.dto\\ordermaster\\getoneordermasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.application\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.dto\\user\\getallusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|solutionrelative:menstore.dto\\user\\getallusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.dto\\user\\getoneuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|solutionrelative:menstore.dto\\user\\getoneuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.application\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.dto\\ordermaster\\getallordermasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|solutionrelative:menstore.dto\\ordermaster\\getallordermasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.application\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.models\\ordermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8912F74E-57DD-4D9B-BD37-2CE9B829BBFA}|MenStore.Models\\MenStore.Models.csproj|solutionrelative:menstore.models\\ordermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.application\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|c:\\users\\mahmo\\source\\repos\\menstore\\menstore.context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.dto\\orderdetail\\getoneorderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|solutionrelative:menstore.dto\\orderdetail\\getoneorderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.dto\\orderdetail\\getallorderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC9F40F-BCA9-4200-898A-5E67E76DF665}|MenStore.DTO\\MenStore.DTO.csproj|solutionrelative:menstore.dto\\orderdetail\\getallorderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.infrastructure\\ordermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|solutionrelative:menstore.infrastructure\\ordermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71014762-FC5E-4892-93C8-5AC947216E22}|MenStore.Context\\MenStore.Context.csproj|solutionrelative:menstore.context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.application\\contracts\\iordermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\contracts\\iordermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.infrastructure\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F8A48E-94AD-406B-B748-C44DCC55AB9F}|MenStore.Infrastructure\\MenStore.Infrastructure.csproj|solutionrelative:menstore.infrastructure\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.application\\contracts\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\contracts\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|c:\\users\\walid\\desktop\\c# project\\men-store\\menstore.application\\menstore.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A776E7D9-41A0-4423-B7FE-84CAF01EE245}|MenStore.Application\\MenStore.Application.csproj|solutionrelative:menstore.application\\menstore.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +98,305 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Infrastructure\\UserRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Infrastructure\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Infrastructure\\UserRepository.cs",
+              "RelativeToolTip": "MenStore.Infrastructure\\UserRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:14:02.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Service\\UserService.cs",
+              "RelativeToolTip": "MenStore.Application\\Service\\UserService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T13:31:17.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetOneOrderMasterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\OrderMaster\\GetOneOrderMasterDTO.cs",
+              "RelativeDocumentMoniker": "MenStore.DTO\\OrderMaster\\GetOneOrderMasterDTO.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\OrderMaster\\GetOneOrderMasterDTO.cs",
+              "RelativeToolTip": "MenStore.DTO\\OrderMaster\\GetOneOrderMasterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:32:54.597Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\Mapper\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "MenStore.Application\\Mapper\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Application\\Mapper\\AutoMapperProfile.cs",
-              "RelativeToolTip": "MenStore.Application\\Mapper\\AutoMapperProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABIAAAA",
+              "Title": "Genericrepository.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Infrastructure\\Genericrepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Infrastructure\\Genericrepository.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Infrastructure\\Genericrepository.cs",
+              "RelativeToolTip": "MenStore.Infrastructure\\Genericrepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T18:07:51.094Z",
+              "WhenOpened": "2024-08-30T22:12:22.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StoreContext.cs",
-              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\StoreContext.cs",
-              "RelativeDocumentMoniker": "MenStore.Context\\StoreContext.cs",
-              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Context\\StoreContext.cs",
-              "RelativeToolTip": "MenStore.Context\\StoreContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA8AAAA",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Contracts\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Contracts\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Contracts\\IUserRepository.cs",
+              "RelativeToolTip": "MenStore.Application\\Contracts\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T15:57:24.098Z",
+              "WhenOpened": "2024-08-28T22:58:57.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Service\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Service\\IUserService.cs",
+              "RelativeToolTip": "MenStore.Application\\Service\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:26:16.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAllUsersDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\User\\GetAllUsersDTO.cs",
+              "RelativeDocumentMoniker": "MenStore.DTO\\User\\GetAllUsersDTO.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\User\\GetAllUsersDTO.cs",
+              "RelativeToolTip": "MenStore.DTO\\User\\GetAllUsersDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:56:59.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetOneUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\User\\GetOneUserDTO.cs",
+              "RelativeDocumentMoniker": "MenStore.DTO\\User\\GetOneUserDTO.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\User\\GetOneUserDTO.cs",
+              "RelativeToolTip": "MenStore.DTO\\User\\GetOneUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:56:03.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\User.cs",
+              "RelativeDocumentMoniker": "MenStore.Models\\User.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\User.cs",
+              "RelativeToolTip": "MenStore.Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T22:21:55.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Contracts\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Contracts\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Contracts\\IGenericRepository.cs",
+              "RelativeToolTip": "MenStore.Application\\Contracts\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T23:06:15.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetAllOrderMasterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\OrderMaster\\GetAllOrderMasterDTO.cs",
+              "RelativeDocumentMoniker": "MenStore.DTO\\OrderMaster\\GetAllOrderMasterDTO.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\OrderMaster\\GetAllOrderMasterDTO.cs",
+              "RelativeToolTip": "MenStore.DTO\\OrderMaster\\GetAllOrderMasterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:32:49.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "MenStore.Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\OrderDetail.cs",
+              "RelativeToolTip": "MenStore.Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:53:05.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "OrderMaster.cs",
-              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\OrderMaster.cs",
               "RelativeDocumentMoniker": "MenStore.Models\\OrderMaster.cs",
-              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderMaster.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\OrderMaster.cs",
               "RelativeToolTip": "MenStore.Models\\OrderMaster.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T15:54:13.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "MenStore.Models\\OrderDetail.cs",
-              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\OrderDetail.cs",
-              "RelativeToolTip": "MenStore.Models\\OrderDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABFAAAA",
+              "DocumentIndex": 13,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "RelativeToolTip": "MenStore.Application\\Mapper\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T15:53:05.15Z",
+              "WhenOpened": "2024-08-27T18:07:51.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllOrderDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\OrderDetail\\GetAllOrderDetailDTO.cs",
+              "RelativeDocumentMoniker": "MenStore.DTO\\OrderDetail\\GetAllOrderDetailDTO.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\OrderDetail\\GetAllOrderDetailDTO.cs",
+              "RelativeToolTip": "MenStore.DTO\\OrderDetail\\GetAllOrderDetailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T23:26:58.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetOneOrderDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\OrderDetail\\GetOneOrderDetailDTO.cs",
+              "RelativeDocumentMoniker": "MenStore.DTO\\OrderDetail\\GetOneOrderDetailDTO.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.DTO\\OrderDetail\\GetOneOrderDetailDTO.cs",
+              "RelativeToolTip": "MenStore.DTO\\OrderDetail\\GetOneOrderDetailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T23:27:02.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderMasterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Infrastructure\\OrderMasterRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Infrastructure\\OrderMasterRepository.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Infrastructure\\OrderMasterRepository.cs",
+              "RelativeToolTip": "MenStore.Infrastructure\\OrderMasterRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:12:22.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Context\\StoreContext.cs",
+              "RelativeDocumentMoniker": "MenStore.Context\\StoreContext.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Context\\StoreContext.cs",
+              "RelativeToolTip": "MenStore.Context\\StoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:57:24.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IOrderMasterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Contracts\\IOrderMasterRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Contracts\\IOrderMasterRepository.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Contracts\\IOrderMasterRepository.cs",
+              "RelativeToolTip": "MenStore.Application\\Contracts\\IOrderMasterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T23:06:12.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Infrastructure\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Infrastructure\\OrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Infrastructure\\OrderDetailRepository.cs",
+              "RelativeToolTip": "MenStore.Infrastructure\\OrderDetailRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:02:01.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IOrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Contracts\\IOrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "MenStore.Application\\Contracts\\IOrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\Contracts\\IOrderDetailRepository.cs",
+              "RelativeToolTip": "MenStore.Application\\Contracts\\IOrderDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T23:06:14.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MenStore.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\MenStore.Application.csproj",
+              "RelativeDocumentMoniker": "MenStore.Application\\MenStore.Application.csproj",
+              "ToolTip": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Application\\MenStore.Application.csproj",
+              "RelativeToolTip": "MenStore.Application\\MenStore.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-28T22:28:28.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

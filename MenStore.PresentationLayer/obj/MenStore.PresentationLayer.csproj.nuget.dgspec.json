@@ -1,20 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj": {}
+    "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj": {
+    "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj",
         "projectName": "MenStore.PresentationLayer",
-        "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj",
-        "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.PresentationLayer\\obj\\",
+        "projectPath": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.PresentationLayer\\MenStore.PresentationLayer.csproj",
+        "packagesPath": "C:\\Users\\Walid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.PresentationLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Walid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +28,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://devops.nice-deer.com:3080/ND/_packaging/InternalNugeet%40Local/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +72,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

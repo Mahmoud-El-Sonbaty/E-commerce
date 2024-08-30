@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "4t6CzPmT7v8=",
+  "dgSpecHash": "DD9Z3Vp24dQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Walid\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://devops.nice-deer.com:3080/ND/_packaging/InternalNugeet%40Local/nuget/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source http://devops.nice-deer.com:3080/ND/_packaging/InternalNugeet%40Local/nuget/v3/index.json."
+    }
+  ]
 }

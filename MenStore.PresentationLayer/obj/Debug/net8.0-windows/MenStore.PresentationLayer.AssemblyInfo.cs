@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MenStore.PresentationLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9900a7bdaf5162caf5331de48229841ccedc4b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ceb0dd8d7be4582d7467c21e1cb014ae11d95dce")]
 [assembly: System.Reflection.AssemblyProductAttribute("MenStore.PresentationLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MenStore.PresentationLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

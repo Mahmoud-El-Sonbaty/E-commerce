@@ -1,20 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj": {}
+    "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj": {
+    "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj",
         "projectName": "MenStore.Models",
-        "projectPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\MenStore.Models.csproj",
-        "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahmo\\source\\repos\\MenStore\\MenStore.Models\\obj\\",
+        "projectPath": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj",
+        "packagesPath": "C:\\Users\\Walid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Walid\\Desktop\\C# Project\\Men-Store\\MenStore.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Walid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +28,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://devops.nice-deer.com:3080/ND/_packaging/InternalNugeet%40Local/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +53,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
