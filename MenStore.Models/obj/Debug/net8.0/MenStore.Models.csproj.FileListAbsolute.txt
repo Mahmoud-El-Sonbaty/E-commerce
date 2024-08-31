@@ -22,3 +22,15 @@ B:\ITI courses\VS_C#\project\Men-Store\MenStore.Models\obj\Debug\net8.0\MenStore
 B:\ITI courses\VS_C#\project\Men-Store\MenStore.Models\obj\Debug\net8.0\refint\MenStore.Models.dll
 B:\ITI courses\VS_C#\project\Men-Store\MenStore.Models\obj\Debug\net8.0\MenStore.Models.pdb
 B:\ITI courses\VS_C#\project\Men-Store\MenStore.Models\obj\Debug\net8.0\ref\MenStore.Models.dll
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\bin\Debug\net8.0\MenStore.Models.deps.json
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\bin\Debug\net8.0\MenStore.Models.dll
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\bin\Debug\net8.0\MenStore.Models.pdb
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\obj\Debug\net8.0\MenStore.Models.GeneratedMSBuildEditorConfig.editorconfig
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\obj\Debug\net8.0\MenStore.Models.AssemblyInfoInputs.cache
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\obj\Debug\net8.0\MenStore.Models.AssemblyInfo.cs
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\obj\Debug\net8.0\MenStore.Models.csproj.CoreCompileInputs.cache
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\obj\Debug\net8.0\MenStore.Models.sourcelink.json
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\obj\Debug\net8.0\MenStore.Models.dll
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\obj\Debug\net8.0\refint\MenStore.Models.dll
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\obj\Debug\net8.0\MenStore.Models.pdb
+B:\ITI courses\VS_C#\projects\Men-Store\MenStore.Models\obj\Debug\net8.0\ref\MenStore.Models.dll

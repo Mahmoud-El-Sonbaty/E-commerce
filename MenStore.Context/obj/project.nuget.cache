@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h4E4ARVn0u0=",
+  "dgSpecHash": "BtNJ9qS/Pqo=",
   "success": true,
-  "projectFilePath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\MenStore.Context.csproj",
+  "projectFilePath": "B:\\ITI courses\\VS_C#\\projects\\Men-Store\\MenStore.Context\\MenStore.Context.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELGHOUL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ELGHOUL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

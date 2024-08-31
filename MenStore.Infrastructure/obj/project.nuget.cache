@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SbuhCyFrBZU=",
+  "dgSpecHash": "MT+4xXZFxk8=",
   "success": true,
-  "projectFilePath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Infrastructure\\MenStore.Infrastructure.csproj",
+  "projectFilePath": "B:\\ITI courses\\VS_C#\\projects\\Men-Store\\MenStore.Infrastructure\\MenStore.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ELGHOUL\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
     "C:\\Users\\ELGHOUL\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ELGHOUL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ELGHOUL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -37,7 +38,7 @@
     "C:\\Users\\ELGHOUL\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ELGHOUL\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\ELGHOUL\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
-    "C:\\Users\\ELGHOUL\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\ELGHOUL\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
     "C:\\Users\\ELGHOUL\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "C:\\Users\\ELGHOUL\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
     "C:\\Users\\ELGHOUL\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.35.0\\system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",

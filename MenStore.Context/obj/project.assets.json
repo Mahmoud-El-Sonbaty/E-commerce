@@ -4003,11 +4003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\MenStore.Context.csproj",
+      "projectUniqueName": "B:\\ITI courses\\VS_C#\\projects\\Men-Store\\MenStore.Context\\MenStore.Context.csproj",
       "projectName": "MenStore.Context",
-      "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\MenStore.Context.csproj",
+      "projectPath": "B:\\ITI courses\\VS_C#\\projects\\Men-Store\\MenStore.Context\\MenStore.Context.csproj",
       "packagesPath": "C:\\Users\\ELGHOUL\\.nuget\\packages\\",
-      "outputPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Context\\obj\\",
+      "outputPath": "B:\\ITI courses\\VS_C#\\projects\\Men-Store\\MenStore.Context\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4029,8 +4029,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj": {
-              "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj"
+            "B:\\ITI courses\\VS_C#\\projects\\Men-Store\\MenStore.Models\\MenStore.Models.csproj": {
+              "projectPath": "B:\\ITI courses\\VS_C#\\projects\\Men-Store\\MenStore.Models\\MenStore.Models.csproj"
             }
           }
         }

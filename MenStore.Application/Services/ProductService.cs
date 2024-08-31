@@ -26,6 +26,7 @@ namespace MenStore.Application.Services
             if (productDto != null && productDto.quantity > 10)
             {
                 product p = _repository.Create(product1);
+                _repository.savechanges();
                 return _mapper.Map<GetOneProductDTO>(p);
             }
             return null;
@@ -36,6 +37,8 @@ namespace MenStore.Application.Services
             if (productDto != null )
             {
                 product p = _repository.Update(product1);
+                _repository.savechanges();
+
                 return _mapper.Map<GetOneProductDTO>(p);
             }
             return null;
@@ -46,6 +49,8 @@ namespace MenStore.Application.Services
             if (productDto != null )
             {
                 product p = _repository.Delete(product1);
+                _repository.savechanges();
+
                 return _mapper.Map<GetOneProductDTO>(p);
             }
             return null;

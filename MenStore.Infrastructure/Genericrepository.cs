@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace MenStore.Infrastructure
 {
-    public class Genericrepository <T> : IGenericRepository<T> where T : class
+    public class Genericrepository<T> : IGenericRepository<T> where T : class
     {
-        
-            private readonly StoreContext context;
-                private readonly DbSet<T> dbSet;
+
+        private readonly StoreContext context;
+        private readonly DbSet<T> dbSet;
 
         public Genericrepository(StoreContext context)
         {
@@ -22,30 +22,36 @@ namespace MenStore.Infrastructure
             dbSet = context.Set<T>();
         }
         public T Create(T entity)
-            {
-                return dbSet.Add(entity).Entity;
-            }
+        {
+            return dbSet.Add(entity).Entity;
+        }
 
-            public T Delete(T entity)
-            {
-                return dbSet.Remove(entity).Entity;
+        public T Delete(T entity)
+        {
+            return dbSet.Remove(entity).Entity;
 
-            }
+        }
 
-            public IQueryable<T> GetAll()
-            {
-                return dbSet; 
-            }
+        public IQueryable<T> GetAll()
+        {
+            return dbSet;
+        }
 
-            public T GetOne(int entityId)
-            {
-                return dbSet.Find(entityId); 
-            }
+        public T GetOne(int entityId)
+        {
+            return dbSet.Find(entityId);
+        }
 
-            public T Update(T entity)
-            {
-                return dbSet .Update(entity).Entity;
-            }
-        
+        public T Update(T entity)
+        {
+            return dbSet.Update(entity).Entity;
+        }
+        public int savechanges()
+        {
+
+
+            return context.SaveChanges(); ;
+        }
     }
+
 }

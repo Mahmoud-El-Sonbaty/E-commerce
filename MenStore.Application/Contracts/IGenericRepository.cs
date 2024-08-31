@@ -13,5 +13,6 @@ namespace MenStore.Application.Contracts
         public T Delete(T entity);
         public IQueryable<T> GetAll();
         public T GetOne(int entityId);
+        public int savechanges();
     }
 }

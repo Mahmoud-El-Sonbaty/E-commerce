@@ -36,5 +36,11 @@ namespace MenStore.Infrastructure
         {
             return Context.OrdersDetail.Update(entity).Entity;
         }
+        public int savechanges()
+        {
+
+
+            return Context.SaveChanges(); ;
+        }
     }
 }

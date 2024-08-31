@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MenStore.PresentationLayer
 {
-    public partial class productsForm : Form
+    public partial class Form2 : Form
     {
-        public productsForm()
+        public Form2()
         {
             InitializeComponent();
         }

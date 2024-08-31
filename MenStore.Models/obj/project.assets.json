@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj",
+      "projectUniqueName": "B:\\ITI courses\\VS_C#\\projects\\Men-Store\\MenStore.Models\\MenStore.Models.csproj",
       "projectName": "MenStore.Models",
-      "projectPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\MenStore.Models.csproj",
+      "projectPath": "B:\\ITI courses\\VS_C#\\projects\\Men-Store\\MenStore.Models\\MenStore.Models.csproj",
       "packagesPath": "C:\\Users\\ELGHOUL\\.nuget\\packages\\",
-      "outputPath": "B:\\ITI courses\\VS_C#\\project\\Men-Store\\MenStore.Models\\obj\\",
+      "outputPath": "B:\\ITI courses\\VS_C#\\projects\\Men-Store\\MenStore.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
