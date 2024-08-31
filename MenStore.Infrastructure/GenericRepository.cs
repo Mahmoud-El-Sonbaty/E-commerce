@@ -1,17 +1,12 @@
 ﻿using MenStore.Application.Contracts;
 using MenStore.Context;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MenStore.Infrastructure
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        private readonly StoreContext context;
+        protected readonly StoreContext context; // should it be protected or private and each child create his own
         private readonly DbSet<T> dbSet;
         public GenericRepository(StoreContext _context)
         {

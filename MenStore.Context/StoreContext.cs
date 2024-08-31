@@ -5,10 +5,19 @@ namespace MenStore.Context
 {
     public class StoreContext : DbContext
     {
+        public DbSet<User> Users { get; set; }
         public DbSet<Category> Categories { get; set; }
         //public DbSet<OrderMaster> OrdersMaster { get; set; }
         //public DbSet<OrderDetail> OrdersDetail { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["MenStore"].ConnectionString);
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>(buildAction =>
+            {
+                buildAction.HasAlternateKey(U => U.Username).HasName("AlternateKey_Username");
+            });
+        }
     }
 }

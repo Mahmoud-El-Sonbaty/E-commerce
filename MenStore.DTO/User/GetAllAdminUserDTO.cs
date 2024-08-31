@@ -6,6 +6,5 @@ using System.Threading.Tasks;
 
 namespace MenStore.DTO.User
 {
-    public record CreateUserDTO(string Username, string Password, string? FullName, string? PhoneNumber, string? Address, bool IsAdmin);
-
+    public record GetAllAdminUserDTO(int Id, string Username, string? FullName);
 }

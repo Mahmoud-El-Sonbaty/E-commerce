@@ -2,6 +2,7 @@
 using MenStore.DTO.Category;
 using MenStore.DTO.OrderDetail;
 using MenStore.DTO.OrderMaster;
+using MenStore.DTO.User;
 using MenStore.Models;
 namespace MenStore.Application.Mapper
 {
@@ -22,6 +23,13 @@ namespace MenStore.Application.Mapper
             //Added By Hossam
             CreateMap<CreateCategoryDTO, Category>().ReverseMap();
             CreateMap<GetCategoryDTO, Category>().ReverseMap();
+            //Added By Walid
+            CreateMap<CreateAdminUserDTO, User>().ReverseMap();
+            CreateMap<CreateUserDTO, User>().ReverseMap();
+            CreateMap<GetOneAdminUserDTO, User>().ReverseMap();
+            CreateMap<GetOneUserDTO, User>().ReverseMap();
+            CreateMap<GetAllAdminUserDTO, User>().ReverseMap();
+            CreateMap<GetAllUserDTO, User>().ReverseMap();
         }
     }
 }
