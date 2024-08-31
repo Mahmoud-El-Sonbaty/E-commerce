@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using MenStore.DTO.Category;
 using MenStore.DTO.OrderDetail;
 using MenStore.DTO.OrderMaster;
 using MenStore.Models;
@@ -18,6 +19,9 @@ namespace MenStore.Application.Mapper
             //CreateMap<GetAllBookAuthorDTO, BookAuthor>().ReverseMap()
             //    .ForMember(dest => dest.AuthorName, opt => opt.MapFrom(src => src.Author.Name))
             //    .ForMember(dest => dest.BookTitle, opt => opt.MapFrom(src => src.Book.Title));
+            //Added By Hossam
+            CreateMap<CreateCategoryDTO, Category>().ReverseMap();
+            CreateMap<GetCategoryDTO, Category>().ReverseMap();
         }
     }
 }

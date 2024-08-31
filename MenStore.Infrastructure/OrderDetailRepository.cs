@@ -8,33 +8,12 @@ using MenStore.Context;
 using MenStore.Models;
 namespace MenStore.Infrastructure
 {
-    public class OrderDetailRepository : IOrderDetailRepository
+    public class OrderDetailRepository : GenericRepository<OrderDetail>, IOrderDetailRepository
     {
-        public StoreContext Context;
-        public OrderDetailRepository(StoreContext _storeContext) => Context = _storeContext; // doesn't the fat arrow means return? or the ctor is a special case
-        public OrderDetail Create(OrderDetail entity)
+        //public OrderDetailRepository(StoreContext _storeContext) => Context = _storeContext; // doesn't the fat arrow means return? or the ctor is a special case
+        public OrderDetailRepository(StoreContext _storeContext) : base(_storeContext)
         {
-            return Context.OrdersDetail.Add(entity).Entity;
-        }
 
-        public OrderDetail Delete(OrderDetail entity)
-        {
-            return Context.OrdersDetail.Remove(entity).Entity;
-        }
-
-        public IQueryable<OrderDetail> GetAll()
-        {
-            return Context.OrdersDetail;
-        }
-
-        public OrderDetail GetOne(int entityId)
-        {
-            return Context.OrdersDetail.FirstOrDefault(D => D.Id == entityId);
-        }
-
-        public OrderDetail Update(OrderDetail entity)
-        {
-            return Context.OrdersDetail.Update(entity).Entity;
         }
     }
 }

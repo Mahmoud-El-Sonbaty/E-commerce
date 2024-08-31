@@ -5,6 +5,7 @@ namespace MenStore.Context
 {
     public class StoreContext : DbContext
     {
+        public DbSet<Category> Categories { get; set; }
         public DbSet<OrderMaster> OrdersMaster { get; set; }
         public DbSet<OrderDetail> OrdersDetail { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
