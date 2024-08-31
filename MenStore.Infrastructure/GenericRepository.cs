@@ -10,7 +10,7 @@ namespace MenStore.Infrastructure
         private readonly DbSet<T> dbSet;
         public GenericRepository(StoreContext _context)
         {
-            context = _context;
+            this.context = _context;
             dbSet = context.Set<T>();
 
         }

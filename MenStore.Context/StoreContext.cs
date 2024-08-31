@@ -7,6 +7,7 @@ namespace MenStore.Context
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
         //public DbSet<OrderMaster> OrdersMaster { get; set; }
         //public DbSet<OrderDetail> OrdersDetail { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
