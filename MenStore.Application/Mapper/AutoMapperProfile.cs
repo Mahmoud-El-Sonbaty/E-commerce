@@ -34,6 +34,8 @@ namespace MenStore.Application.Mapper
             //Added By ElGhoul
             CreateMap<CreateProductDTO, Product>().ReverseMap();
             CreateMap<GetAllProductDTO, Product>().ReverseMap()
+                .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name));    
+            CreateMap<GetAllProductUserDTO, Product>().ReverseMap()
                 .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name));
             CreateMap<GetOneProductDTO, Product>().ReverseMap()
                 .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name));

@@ -20,11 +20,13 @@ namespace MenStore.Application.Services.ProductServices
         //public List<GetAllProductDTO> GetAllPagination(int count, int pageNumber);
 
         public List<GetAllProductDTO> GetAllPagination(int count, int pageNumber, int categoryID);
+       public List<GetAllProductUserDTO> GetAllPaginationUser(int count, int pageNumber, int categoryID);
 
         public GetOneProductDTO GetoneOfProduct(int id);
 
         public List<GetAllProductDTO> ProductsOfCategory(int categoryId);
         public List<GetAllProductDTO> search(string key);  
+        public List<GetAllProductUserDTO> searchUser(string key);  
         public int SaveChanges();  
 
 

@@ -10,6 +10,9 @@
     <Compile Update="ProductForAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="productsForUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SAda.cs">
       <SubType>Form</SubType>
     </Compile>

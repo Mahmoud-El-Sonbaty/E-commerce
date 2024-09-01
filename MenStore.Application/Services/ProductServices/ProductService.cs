@@ -87,6 +87,25 @@ namespace MenStore.Application.Services.ProductServices
 
 
             return products;
+        }  
+        public List<GetAllProductUserDTO> GetAllPaginationUser(int count, int pageNumber, int categoryID)
+        {
+            List<GetAllProductUserDTO>  products ;
+            if (categoryID == -1)
+            {
+                 products = productRepository.GetAll().Skip(count * (pageNumber - 1)).Take(count)
+          .Select(b => new GetAllProductUserDTO(b.Id, b.Title, b.Price,b.Image, b.CategoryId, b.Category.Name, b.UnitsInStock)).ToList();
+
+            }
+            else
+            {
+
+             products = productRepository.GetAll().Where(s => s.CategoryId == categoryID).Skip(count * (pageNumber - 1)).Take(count)
+                .Select(b => new GetAllProductUserDTO(b.Id, b.Title, b.Price, b.Image, b.CategoryId, b.Category.Name, b.UnitsInStock)).ToList();
+            }
+
+
+            return products;
         }
 
         public GetOneProductDTO GetoneOfProduct(int id)
@@ -99,6 +118,14 @@ namespace MenStore.Application.Services.ProductServices
         {
             var products = productRepository.GetAll().Where(b=>b.Title.Contains(key))
                 .Select(b => new GetAllProductDTO(b.Id, b.Title, b.Price, b.CategoryId, b.Category.Name, b.UnitsInStock))
+                .ToList();
+
+            return products;
+        }
+          public List<GetAllProductUserDTO> searchUser(string key)
+        {
+            var products = productRepository.GetAll().Where(b=>b.Title.Contains(key))
+                .Select(b => new GetAllProductUserDTO(b.Id, b.Title, b.Price,b.Image ,b.CategoryId, b.Category.Name, b.UnitsInStock))
                 .ToList();
 
             return products;

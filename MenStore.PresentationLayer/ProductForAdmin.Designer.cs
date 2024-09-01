@@ -269,6 +269,7 @@ namespace MenStore.PresentationLayer
             // 
             categorySelect.Name = "categorySelect";
             categorySelect.Size = new Size(121, 28);
+            categorySelect.Click += categorySelect_Click;
             // 
             // searchToolStripMenuItem
             // 
@@ -280,6 +281,7 @@ namespace MenStore.PresentationLayer
             // 
             txtSearch.Name = "txtSearch";
             txtSearch.Size = new Size(100, 28);
+            txtSearch.Click += txtSearch_Click;
             // 
             // ProductForAdmin
             // 

@@ -151,7 +151,7 @@ namespace MenStore.PresentationLayer
             productService.UpdateProduct(updatedProduct);
 
 
-        } 
+        }
         private void deletinkkkg(object sender, DataGridViewRowCancelEventArgs e)
         {
 
@@ -275,14 +275,13 @@ namespace MenStore.PresentationLayer
             btnPrevious.Enabled = false;
             btnHome.Enabled = false;
             txtSearch.Clear();
+            categorySelect.SelectedIndex = 0;
+
+
+
             if (categorySelect.SelectedItem is GetCategoryDTO selectedCategory)
             {
                 showProductsOfCategory(selectedCategory.Id, 10, pageNumber);
-
-            }
-            else
-            {
-                showProductsOfCategory(-1, 10, pageNumber);
 
             }
         }
@@ -298,6 +297,16 @@ namespace MenStore.PresentationLayer
             ////    Debug.WriteLine(Datagrid.Rows[row3.Index]);
             ////    //var tt = productService.GetAllPagination(35, 1, -1);
             ////}
+        }
+
+        private void txtSearch_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void categorySelect_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
