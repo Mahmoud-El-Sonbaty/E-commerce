@@ -8,6 +8,7 @@ using AutoMapper;
 using MenStore.Application.Contracts;
 using MenStore.Application.Mapper;
 using MenStore.Application.Services;
+using MenStore.Application.Services.CategoryServices;
 using MenStore.Application.Services.ProductServices;
 using MenStore.Context;
 using MenStore.Infrastructure;
@@ -22,6 +23,8 @@ namespace MenStore.PresentationLayer
 
             builder.RegisterType<ProductService>().As<IProductService>();
             builder.RegisterType<ProductRepository>().As<IProductRepository>();
+            builder.RegisterType<CategoryServices>().As<ICategorySevice>();
+            builder.RegisterType<CategoryRepository>().As<ICategoryRepository>();
             builder.RegisterType<StoreContext>().As<StoreContext>();
             builder.Register(c => new MapperConfiguration(a =>
             {

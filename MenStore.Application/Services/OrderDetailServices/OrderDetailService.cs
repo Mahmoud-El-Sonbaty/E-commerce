@@ -48,7 +48,7 @@ namespace MenStore.Application.Services.OrderDetailServices
         {
             if (orderDetail != null)
             {
-                return mapper.Map<GetOneOrderDetailDTO>(orderDetailRepository.Delete(orderDetail));
+                 return mapper.Map<GetOneOrderDetailDTO>(orderDetailRepository.Delete(orderDetail));
             }
             return null;
         }

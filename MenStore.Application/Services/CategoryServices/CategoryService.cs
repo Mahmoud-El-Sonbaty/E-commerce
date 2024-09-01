@@ -48,7 +48,7 @@ namespace MenStore.Application.Services.CategoryServices
 
         public List<GetCategoryDTO> GetAllCategory()
         {
-            return categoryRepository.GetAll().Select(C => new GetCategoryDTO(C.Id, C.Name)).ToList();
+            return categoryRepository.GetAll().Select(C => new GetCategoryDTO() {Id=C.Id,Name=C.Name }).ToList();
         }
 
         public GetCategoryDTO GetOneCategory(int categoryId)

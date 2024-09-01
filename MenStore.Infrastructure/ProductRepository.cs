@@ -15,5 +15,10 @@ namespace MenStore.Infrastructure
         {
             
         }
+
+        public IQueryable<Product> search( string key) {
+
+           return context.Products.Where(b => b.Title.Contains(key));
+        }
     }
 }

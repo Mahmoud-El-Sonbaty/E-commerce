@@ -1,6 +1,7 @@
 ﻿using MenStore.Application.Contracts;
 using MenStore.Context;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace MenStore.Infrastructure
 {
@@ -17,6 +18,7 @@ namespace MenStore.Infrastructure
 
         public T Create(T entity)
         {
+           
             return dbSet.Add(entity).Entity;
         }
 
@@ -27,6 +29,9 @@ namespace MenStore.Infrastructure
 
         public T Delete(T entity)
         {
+            //context.Entry(entity).State = EntityState.Deleted;
+            //Debug.WriteLine(context.Entry(entity).State);
+           
             return dbSet.Remove(entity).Entity;
         }
 
@@ -44,5 +49,6 @@ namespace MenStore.Infrastructure
         {
             return context.SaveChanges();
         }
+
     }
 }

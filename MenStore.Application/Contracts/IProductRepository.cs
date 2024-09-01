@@ -9,5 +9,7 @@ namespace MenStore.Application.Contracts
 {
     public interface IProductRepository : IGenericRepository<Product>
     {
+        public IQueryable<Product> search(string key);
+
     }
 }

@@ -6,7 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.0.0" />
     <PackageReference Include="microsoft.entityframeworkcore.design" Version="8.0.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

@@ -11,7 +11,8 @@ namespace MenStore.Models
         public string Title { get; set; }
 
         [Url]
-        public string Image { get; set; }
+
+        public string? Image { get; set; }
 
         [ForeignKey("id")]
         public int CategoryId { get; set; }
@@ -22,6 +23,5 @@ namespace MenStore.Models
         
         public int? UnitsInStock { get; set; }
 
-        public ICollection<Product>? Products { get; set; }
     }
 }

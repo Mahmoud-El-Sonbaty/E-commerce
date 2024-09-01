@@ -8,4 +8,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MenStore.Application\MenStore.Application.csproj" />
+    <ProjectReference Include="..\MenStore.Context\MenStore.Context.csproj" />
+    <ProjectReference Include="..\MenStore.Infrastructure\MenStore.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
