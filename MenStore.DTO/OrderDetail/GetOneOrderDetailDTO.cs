@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace MenStore.DTO.OrderDetail
 {
-    public record GetOneOrderDetailDTO(int Id, int OrderMasterId, int ProductId, string ProductName, double DetailPrice);
+    public record GetOneOrderDetailDTO(int Id, int OrderMasterId, int ProductId, int Quantity);
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MenStore.Application.Services.CategoryServices
 {
-    public interface ICategorySevice
+    public interface ICategoryService
     {
         public GetCategoryDTO CreateCategory(CreateCategoryDTO category);
         public GetCategoryDTO UpdateCategory(CreateCategoryDTO category);

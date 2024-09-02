@@ -8,25 +8,30 @@ namespace MenStore.Application.Services.UserServices
 {
     public class UserService : IUserService
     {
-        private IUserRepository _userRepository;
+        private IUserRepository userRepository;
         private IMapper mapper;
-        public UserService(IUserRepository _userRepository)
+        public UserService(IUserRepository _userRepository, IMapper _mapper)
         {
-            _userRepository = _userRepository;
+            userRepository = _userRepository;
+            mapper = _mapper;
         }
 
-        public GetOneUserDTO Login(CreateUserDTO user)
+        public GetOneUserDTO Login(CheckUserDTO user)
         {
             if (user.Username != null && user.Password != null)
             {
-                User User = _userRepository.CheckUser(user.Username);
-                if (User.Password == user.Password)
+                User User = userRepository.CheckUser(user.Username);
+                if (User == null)
                 {
-                    return mapper.Map<GetOneUserDTO>(user);
+                    //msg box wrong USER
+                }
+                else if (User.Password == user.Password)
+                {
+                    return mapper.Map<GetOneUserDTO>(User);
                 }
                 //msg box wrong password
+                
             }
-            //msg box user doesn't exist
             return null;
         }
 
@@ -37,7 +42,12 @@ namespace MenStore.Application.Services.UserServices
                 User mappedUser = mapper.Map<User>(user);
                 // here we should encrypt the password before sending it
                 //mappedUser.Password = Encrypt(user.Password);
-                return mapper.Map<GetOneUserDTO>(_userRepository.Create(mappedUser));
+                var Check = userRepository.CheckUser(user.Username);
+                if (Check == null)
+                {
+                    return mapper.Map<GetOneUserDTO>(userRepository.Create(mappedUser));
+                }
+                //message box user already exisit
             }
             return null;
         }

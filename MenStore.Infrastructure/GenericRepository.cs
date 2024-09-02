@@ -1,5 +1,6 @@
 ﻿using MenStore.Application.Contracts;
 using MenStore.Context;
+using MenStore.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace MenStore.Infrastructure
@@ -17,11 +18,19 @@ namespace MenStore.Infrastructure
 
         public T Create(T entity)
         {
-            return dbSet.Add(entity).Entity;
+            var x  = dbSet.Add(entity).Entity;
+            context.SaveChanges();
+            return x;
         }
 
         public T Update(T entity)
         {
+            //var trackedEntities = context.ChangeTracker.Entries<context.Set<OrderMaster>()
+            //    .Where(e => e.Id == entity is OrderDetail ? entity ).ToList();
+            //foreach (var entry in trackedEntities)
+            //{
+            //    entry.State = EntityState.Detached;
+            //}
             return dbSet.Update(entity).Entity;
         }
 

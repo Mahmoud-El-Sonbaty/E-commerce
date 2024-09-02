@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace MenStore.DTO.Category
 {
-    public record GetCategoryDTO(int Id, string Name);
-    //public class GetCategoryDTO
-    //{
-    //    public string Name { get; set; }
-    //}
+    //public record GetCategoryDTO(int Id, string Name);
+    public class GetCategoryDTO
+    {
+        public int Id { get; init; }
+        public string Name { get; init; }
+
+        public override string ToString()
+        {
+            return this.Name;
+        }
+    }
 }

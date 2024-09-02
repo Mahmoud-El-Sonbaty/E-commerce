@@ -8,7 +8,7 @@ using System.Linq;
 using System.Runtime.InteropServices.Marshalling;
 using System.Text;
 using System.Threading.Tasks;
-
+using Microsoft.EntityFrameworkCore;
 namespace MenStore.Application.Services.OrderMasterServices
 {
     public class OrderMasterService : IOrderMasterService
@@ -20,16 +20,19 @@ namespace MenStore.Application.Services.OrderMasterServices
             orderMasterRepository = _orderMasterRepository;
             mapper = _mapper;
         }
-        public GetOneOrderMasterDTO CreateOrderMaster(OrderMaster orderMaster)
+
+        public GetOneOrderMasterDTO CreateOrderMaster(CreateOrderMasterDTO orderMaster)
         {
-            return mapper.Map<GetOneOrderMasterDTO>(orderMasterRepository.Create(orderMaster));
+            var hh = mapper.Map<OrderMaster>(orderMaster);
+            var ii = orderMasterRepository.Create(hh);
+            return mapper.Map<GetOneOrderMasterDTO>(ii);
         }
 
-        public GetOneOrderMasterDTO UpdateOrderMaster(OrderMaster orderMaster)
+        public GetOneOrderMasterDTO UpdateOrderMaster(GetOneOrderMasterDTO orderMaster)
         {
             if (orderMaster != null)
             {
-                if (orderMaster.OrderState == State.Processing)
+                if (orderMaster.OrderState == (int)State.Processing)
                 {
                     //foreach (var OrderDetail in orderMaster.OrderDetails)
                     //{
@@ -37,31 +40,39 @@ namespace MenStore.Application.Services.OrderMasterServices
                     //    // here we should call the product update function in the product service but howwwww????????????
                     //}
                 }
-                return mapper.Map<GetOneOrderMasterDTO>(orderMasterRepository.Update(orderMaster));
+                return mapper.Map<GetOneOrderMasterDTO>(orderMasterRepository.Update(mapper.Map<OrderMaster>(orderMaster)));
             }
             return null;
         }
 
-        public GetOneOrderMasterDTO DeleteOrderMaster(OrderMaster orderMaster)
+        public GetOneOrderMasterDTO DeleteOrderMaster(GetOneOrderMasterDTO orderMaster)
         {
-            return mapper.Map<GetOneOrderMasterDTO>(orderMasterRepository.Delete(orderMaster));
+            return mapper.Map<GetOneOrderMasterDTO>(orderMasterRepository.Delete(mapper.Map<OrderMaster>(orderMaster)));
         }
 
         public List<GetAllOrderMasterDTO> GetAllOrderMaster()
         {
-            return orderMasterRepository.GetAll().Select(OM => mapper.Map<GetAllOrderMasterDTO>(OM)).ToList();
+            IQueryable<OrderMaster> orderMasterQuery = orderMasterRepository.GetAll();
+            //i want to return iii including the user.Name 
+            return orderMasterRepository.GetAll()
+                .Select(OM => new GetAllOrderMasterDTO() { Id = OM.Id, ClientId = OM.ClientId,/* ClientName = OM.Client.FullName,*/ Total = OM.Total, OrderDateTime = OM.OrderDateTime, OrderState = (int)OM.OrderState })
+                .ToList(); // whyyyyyyyyyy????
+            //return orderMasterRepository.GetAll().Select(OM => mapper.Map<GetAllOrderMasterDTO>(OM)).ToList();
         }
 
-        public List<GetAllOrderMasterDTO> GetAllOrderMasterOnState(State orderState)
-            => orderMasterRepository.GetAll().Select(OM => mapper.Map<GetAllOrderMasterDTO>(OM.OrderState == orderState)).ToList();
+        public List<GetAllOrderMasterDTO> GetAllOrderMasterOnState(State orderState, int clientId)
+            => orderMasterRepository.GetAll().AsNoTracking().Where(O => O.OrderState == orderState && O.ClientId == clientId)
+                .Select(OM => mapper.Map<GetAllOrderMasterDTO>(OM)).ToList();
 
         public GetOneOrderMasterDTO GetOneOrderMaster(int orderMasterId)
         {
             return mapper.Map<GetOneOrderMasterDTO>(orderMasterRepository.GetOne(orderMasterId));
         }
 
-        public List<GetAllOrderMasterDTO> GetUserOrderMaster(int userId) => throw new NotImplementedException();
-        //public List<GetAllOrderMasterDTO> GetUserOrderMaster(int userId)
-        //    => orderMasterRepository.GetAll().Select(OM => OM.UserId == userId).ToList();
+        //public List<GetAllOrderMasterDTO> GetUserOrderMaster(int userId) => throw new NotImplementedException();
+        public List<GetAllOrderMasterDTO> GetUserOrderMaster(int userId)
+        => orderMasterRepository.GetAll().Where(OM => OM.ClientId == userId).Select(OM => mapper.Map<GetAllOrderMasterDTO>(OM)).ToList();
+
+        public int SaveChanges() => orderMasterRepository.SaveChanges();
     }
 }

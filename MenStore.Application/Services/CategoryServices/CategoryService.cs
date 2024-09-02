@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace MenStore.Application.Services.CategoryServices
 {
-    public class CategoryServices : ICategorySevice
+    public class CategoryService : ICategoryService
     {
         public readonly ICategoryRepository categoryRepository;
         public readonly IMapper mapper;
-        public CategoryServices(ICategoryRepository _categoryRepository, IMapper _mapper)
+        public CategoryService(ICategoryRepository _categoryRepository, IMapper _mapper)
         {
             categoryRepository = _categoryRepository;
             mapper = _mapper;
@@ -48,7 +48,7 @@ namespace MenStore.Application.Services.CategoryServices
 
         public List<GetCategoryDTO> GetAllCategory()
         {
-            return categoryRepository.GetAll().Select(C => new GetCategoryDTO(C.Id, C.Name)).ToList();
+            return categoryRepository.GetAll().Select(C => new GetCategoryDTO() { Id = C.Id, Name = C.Name}).ToList();
         }
 
         public GetCategoryDTO GetOneCategory(int categoryId)

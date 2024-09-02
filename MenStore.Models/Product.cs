@@ -11,17 +11,17 @@ namespace MenStore.Models
         public string Title { get; set; }
 
         [Url]
-        public string Image { get; set; }
+        public string? Image { get; set; }
 
         [ForeignKey("id")]
         public int CategoryId { get; set; }
 
-        public Category Category { get; set; }
+        public virtual Category Category { get; set; }
         
         public double Price { get; set; }
         
         public int? UnitsInStock { get; set; }
 
-        public ICollection<Product>? Products { get; set; }
+        public virtual ICollection<Product>? Products { get; set; }
     }
 }

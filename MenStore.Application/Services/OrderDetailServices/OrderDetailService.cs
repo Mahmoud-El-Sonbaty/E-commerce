@@ -2,6 +2,7 @@
 using MenStore.Application.Contracts;
 using MenStore.DTO.OrderDetail;
 using MenStore.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,25 +21,27 @@ namespace MenStore.Application.Services.OrderDetailServices
             mapper = _mapper;
         }
 
-        public GetOneOrderDetailDTO CreateOrderDetail(OrderDetail orderDetail)
+        public GetOneOrderDetailDTO CreateOrderDetail(CreateOrderDetailDTO orderDetail)
         {
             if (orderDetail != null)
             {
                 //if (orderDetail.Quantity <= orderDetail.Product.UnitsInStock)
                 //{
-                    return mapper.Map<GetOneOrderDetailDTO>(orderDetailRepository.Create(orderDetail));
+                var hh = mapper.Map<OrderDetail>(orderDetail);
+                var tt = orderDetailRepository.Create(hh);
+                    return mapper.Map<GetOneOrderDetailDTO>(tt);
                 //}
             }
             return null;
         }
 
-        public GetOneOrderDetailDTO UpdateOrderDetail(OrderDetail orderDetail)
+        public GetOneOrderDetailDTO UpdateOrderDetail(GetOneOrderDetailDTO orderDetail)
         {
             if (orderDetail != null)
             {
                 //if (orderDetail.Quantity <= orderDetail.Product.UnitsInStock)
                 //{
-                    return mapper.Map<GetOneOrderDetailDTO>(orderDetailRepository.Update(orderDetail));
+                    return mapper.Map<GetOneOrderDetailDTO>(orderDetailRepository.Update(mapper.Map<OrderDetail>(orderDetail)));
                 //}
             }
             return null;
@@ -55,12 +58,24 @@ namespace MenStore.Application.Services.OrderDetailServices
 
         public List<GetAllOrderDetailDTO> GetAllDetailsOfMaster(int orderMasterId)
         {
-            return orderDetailRepository.GetAll().Select(OD => mapper.Map<GetAllOrderDetailDTO>(OD.Id == orderMasterId)).ToList();
+            return orderDetailRepository.GetAll().Where(OD => OD.Id == orderMasterId)
+                .Select(OD => mapper.Map<GetAllOrderDetailDTO>(OD)).ToList();
         }
 
         public GetOneOrderDetailDTO GetOneOrderDetail(int orderDetailId)
         {
             return mapper.Map<GetOneOrderDetailDTO>(orderDetailRepository.GetOne(orderDetailId));
+        }
+
+        public GetOneOrderDetailDTO GetOneOrderDetailByProduct(int masterId, int productId)
+        {
+            OrderDetail checkOrderDetail = orderDetailRepository.GetAll().AsNoTracking()
+                .FirstOrDefault(OD => OD.OrderMasterId == masterId && OD.ProductId == productId);
+            return mapper.Map<GetOneOrderDetailDTO>(checkOrderDetail);
+        }
+        public int SaveChanges()
+        {
+           return orderDetailRepository.SaveChanges();
         }
     }
 }

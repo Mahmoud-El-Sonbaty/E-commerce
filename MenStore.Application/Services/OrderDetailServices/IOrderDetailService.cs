@@ -10,10 +10,12 @@ namespace MenStore.Application.Services.OrderDetailServices
 {
     public interface IOrderDetailService
     {
-        public GetOneOrderDetailDTO CreateOrderDetail(OrderDetail orderDetail);
-        public GetOneOrderDetailDTO UpdateOrderDetail(OrderDetail orderDetail);
+        public GetOneOrderDetailDTO CreateOrderDetail(CreateOrderDetailDTO orderDetail);
+        public GetOneOrderDetailDTO UpdateOrderDetail(GetOneOrderDetailDTO orderDetail);
         public GetOneOrderDetailDTO DeleteOrderDetail(OrderDetail orderDetail);
         public List<GetAllOrderDetailDTO> GetAllDetailsOfMaster(int orderMasterId);
         public GetOneOrderDetailDTO GetOneOrderDetail(int orderDetailId);
+        public GetOneOrderDetailDTO GetOneOrderDetailByProduct(int masterId, int productId);
+        public int SaveChanges();
     }
 }

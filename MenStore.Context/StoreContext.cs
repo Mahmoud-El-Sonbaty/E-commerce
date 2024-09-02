@@ -8,10 +8,12 @@ namespace MenStore.Context
         public DbSet<User> Users { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
-        //public DbSet<OrderMaster> OrdersMaster { get; set; }
-        //public DbSet<OrderDetail> OrdersDetail { get; set; }
+        public DbSet<OrderMaster> OrdersMaster { get; set; }
+        public DbSet<OrderDetail> OrdersDetail { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["MenStore"].ConnectionString);
+            => optionsBuilder.UseSqlServer("Data Source=DESKTOP-G3N1PK3\\SQLEXPRESS;Initial Catalog=MenStore;Integrated Security=True;Encrypt=False;");
+            //=> optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Data Source=DESKTOP-G3N1PK3\\SQLEXPRESS;Initial Catalog=MenStore;Integrated Security=True;Encrypt=False;");
+            //=> optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["MenStore"].ConnectionString);
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

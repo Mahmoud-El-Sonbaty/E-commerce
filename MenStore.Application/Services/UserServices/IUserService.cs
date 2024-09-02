@@ -5,7 +5,7 @@ namespace MenStore.Application.Services.UserServices
 {
     public interface IUserService
     {
-        public GetOneUserDTO Login(CreateUserDTO user);
+        public GetOneUserDTO Login(CheckUserDTO user);
         public GetOneUserDTO Register(CreateUserDTO user);
     }
 }
