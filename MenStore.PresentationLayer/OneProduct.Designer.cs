@@ -34,9 +34,10 @@
             label3 = new Label();
             label4 = new Label();
             lblTitle = new Label();
-            Units = new Label();
+            lblUnits = new Label();
             lblPrice = new Label();
             lblCategory = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)BoxPic).BeginInit();
             SuspendLayout();
             // 
@@ -67,7 +68,6 @@
             label1.Size = new Size(179, 37);
             label1.TabIndex = 3;
             label1.Text = "Unit In Stock :";
-            label1.Click += label1_Click_1;
             // 
             // label3
             // 
@@ -78,7 +78,6 @@
             label3.Size = new Size(87, 37);
             label3.TabIndex = 4;
             label3.Text = "Price :";
-            label3.Click += label3_Click;
             // 
             // label4
             // 
@@ -89,7 +88,6 @@
             label4.Size = new Size(138, 37);
             label4.TabIndex = 5;
             label4.Text = "Category :";
-            label4.Click += label4_Click;
             // 
             // lblTitle
             // 
@@ -100,18 +98,16 @@
             lblTitle.Size = new Size(32, 37);
             lblTitle.TabIndex = 2;
             lblTitle.Text = "0";
-            lblTitle.Click += label5_Click;
             // 
-            // Units
+            // lblUnits
             // 
-            Units.AutoSize = true;
-            Units.Font = new Font("Segoe UI", 16F);
-            Units.Location = new Point(625, 118);
-            Units.Name = "Units";
-            Units.Size = new Size(32, 37);
-            Units.TabIndex = 3;
-            Units.Text = "0";
-            Units.Click += label1_Click_1;
+            lblUnits.AutoSize = true;
+            lblUnits.Font = new Font("Segoe UI", 16F);
+            lblUnits.Location = new Point(625, 118);
+            lblUnits.Name = "lblUnits";
+            lblUnits.Size = new Size(32, 37);
+            lblUnits.TabIndex = 3;
+            lblUnits.Text = "0";
             // 
             // lblPrice
             // 
@@ -122,7 +118,6 @@
             lblPrice.Size = new Size(32, 37);
             lblPrice.TabIndex = 4;
             lblPrice.Text = "0";
-            lblPrice.Click += label3_Click;
             // 
             // lblCategory
             // 
@@ -133,18 +128,28 @@
             lblCategory.Size = new Size(32, 37);
             lblCategory.TabIndex = 5;
             lblCategory.Text = "0";
-            lblCategory.Click += label4_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(820, 337);
+            button1.Name = "button1";
+            button1.Size = new Size(122, 46);
+            button1.TabIndex = 6;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // OneProduct
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(954, 395);
+            Controls.Add(button1);
             Controls.Add(lblCategory);
             Controls.Add(label4);
             Controls.Add(lblPrice);
             Controls.Add(label3);
-            Controls.Add(Units);
+            Controls.Add(lblUnits);
             Controls.Add(label1);
             Controls.Add(lblTitle);
             Controls.Add(label2);
@@ -164,8 +169,9 @@
         private Label label3;
         private Label label4;
         private Label lblTitle;
-        private Label Units;
+        private Label lblUnits;
         private Label lblPrice;
         private Label lblCategory;
+        private Button button1;
     }
 }

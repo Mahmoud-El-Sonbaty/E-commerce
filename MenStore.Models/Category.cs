@@ -13,5 +13,6 @@ namespace MenStore.Models
 
         [MaxLength(40)]
         public string Name { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
     }
 }

@@ -22,6 +22,5 @@ namespace MenStore.Models
         
         public int? UnitsInStock { get; set; }
 
-        public virtual ICollection<Product>? Products { get; set; }
     }
 }

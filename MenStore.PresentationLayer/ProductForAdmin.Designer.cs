@@ -54,6 +54,8 @@ namespace MenStore.PresentationLayer
             categorySelect = new ToolStripComboBox();
             searchToolStripMenuItem = new ToolStripMenuItem();
             txtSearch = new ToolStripTextBox();
+            logoutToolStripMenuItem = new ToolStripMenuItem();
+            ordersToolStripMenuItem = new ToolStripMenuItem();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)Datagrid).BeginInit();
             menuStrip1.SuspendLayout();
@@ -244,7 +246,7 @@ namespace MenStore.PresentationLayer
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { loadToolStripMenuItem, saveToolStripMenuItem, categorySelect, searchToolStripMenuItem, txtSearch });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { loadToolStripMenuItem, saveToolStripMenuItem, categorySelect, searchToolStripMenuItem, txtSearch, logoutToolStripMenuItem, ordersToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1082, 32);
@@ -282,6 +284,20 @@ namespace MenStore.PresentationLayer
             txtSearch.Name = "txtSearch";
             txtSearch.Size = new Size(100, 28);
             txtSearch.Click += txtSearch_Click;
+            // 
+            // logoutToolStripMenuItem
+            // 
+            logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
+            logoutToolStripMenuItem.Size = new Size(70, 28);
+            logoutToolStripMenuItem.Text = "Logout";
+            logoutToolStripMenuItem.Click += logoutToolStripMenuItem_Click;
+            // 
+            // ordersToolStripMenuItem
+            // 
+            ordersToolStripMenuItem.Name = "ordersToolStripMenuItem";
+            ordersToolStripMenuItem.Size = new Size(67, 28);
+            ordersToolStripMenuItem.Text = "Orders";
+            ordersToolStripMenuItem.Click += ordersToolStripMenuItem_Click;
             // 
             // ProductForAdmin
             // 
@@ -326,5 +342,7 @@ namespace MenStore.PresentationLayer
         private ToolStripComboBox categorySelect;
         private ToolStripMenuItem searchToolStripMenuItem;
         private ToolStripTextBox txtSearch;
+        private ToolStripMenuItem logoutToolStripMenuItem;
+        private ToolStripMenuItem ordersToolStripMenuItem;
     }
 }

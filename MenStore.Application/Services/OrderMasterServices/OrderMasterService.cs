@@ -32,14 +32,7 @@ namespace MenStore.Application.Services.OrderMasterServices
         {
             if (orderMaster != null)
             {
-                if (orderMaster.OrderState == (int)State.Processing)
-                {
-                    //foreach (var OrderDetail in orderMaster.OrderDetails)
-                    //{
-                    //    OrderDetail.Product.UnitsInStock -= OrderDetail.Quantity;
-                    //    // here we should call the product update function in the product service but howwwww????????????
-                    //}
-                }
+                
                 return mapper.Map<GetOneOrderMasterDTO>(orderMasterRepository.Update(mapper.Map<OrderMaster>(orderMaster)));
             }
             return null;
@@ -52,7 +45,7 @@ namespace MenStore.Application.Services.OrderMasterServices
 
         public List<GetAllOrderMasterDTO> GetAllOrderMaster()
         {
-            IQueryable<OrderMaster> orderMasterQuery = orderMasterRepository.GetAll();
+            //IQueryable<OrderMaster> orderMasterQuery = orderMasterRepository.GetAll();
             //i want to return iii including the user.Name 
             return orderMasterRepository.GetAll()
                 .Select(OM => new GetAllOrderMasterDTO() { Id = OM.Id, ClientId = OM.ClientId,/* ClientName = OM.Client.FullName,*/ Total = OM.Total, OrderDateTime = OM.OrderDateTime, OrderState = (int)OM.OrderState })
@@ -62,6 +55,9 @@ namespace MenStore.Application.Services.OrderMasterServices
 
         public List<GetAllOrderMasterDTO> GetAllOrderMasterOnState(State orderState, int clientId)
             => orderMasterRepository.GetAll().AsNoTracking().Where(O => O.OrderState == orderState && O.ClientId == clientId)
+                .Select(OM => mapper.Map<GetAllOrderMasterDTO>(OM)).ToList();
+        public List<GetAllOrderMasterDTO> GetAllOrderMasterAdminState(State orderState)
+            => orderMasterRepository.GetAll().AsNoTracking().Where(O => O.OrderState == orderState)
                 .Select(OM => mapper.Map<GetAllOrderMasterDTO>(OM)).ToList();
 
         public GetOneOrderMasterDTO GetOneOrderMaster(int orderMasterId)

@@ -15,6 +15,7 @@ using MenStore.Application.Services.OrderDetailServices;
 using MenStore.Application.Services.UserServices;
 using MenStore.Context;
 using MenStore.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 
 namespace MenStore.PresentationLayer
 {
@@ -43,6 +44,15 @@ namespace MenStore.PresentationLayer
             builder.Register(c => c.Resolve<MapperConfiguration>().CreateMapper(c.Resolve))
                 .As<IMapper>()
                 .InstancePerLifetimeScope();
+            //builder.Register(context =>
+            //{
+            //    var optionsBuilder = new DbContextOptionsBuilder<StoreContext>();
+            //    optionsBuilder.UseSqlServer("YourConnectionString"); // Use your actual connection string
+
+            //    return new StoreContext(optionsBuilder.Options);
+            //})
+            //        .As<StoreContext>()
+            //        .SingleInstance();
             return builder.Build();
         }
     }

@@ -38,6 +38,8 @@ namespace MenStore.PresentationLayer
             label6 = new Label();
             label5 = new Label();
             label1 = new Label();
+            label2 = new Label();
+            RegisterNow = new Label();
             SuspendLayout();
             // 
             // SubmitBTN
@@ -48,7 +50,7 @@ namespace MenStore.PresentationLayer
             SubmitBTN.Location = new Point(413, 273);
             SubmitBTN.Name = "SubmitBTN";
             SubmitBTN.Size = new Size(94, 44);
-            SubmitBTN.TabIndex = 15;
+            SubmitBTN.TabIndex = 3;
             SubmitBTN.Text = "Login";
             SubmitBTN.UseVisualStyleBackColor = false;
             SubmitBTN.Click += SubmitBTN_Click;
@@ -58,7 +60,7 @@ namespace MenStore.PresentationLayer
             PasswordTXT.Location = new Point(322, 208);
             PasswordTXT.Name = "PasswordTXT";
             PasswordTXT.Size = new Size(321, 27);
-            PasswordTXT.TabIndex = 10;
+            PasswordTXT.TabIndex = 2;
             PasswordTXT.UseSystemPasswordChar = true;
             // 
             // UsernameTXT
@@ -66,7 +68,7 @@ namespace MenStore.PresentationLayer
             UsernameTXT.Location = new Point(321, 137);
             UsernameTXT.Name = "UsernameTXT";
             UsernameTXT.Size = new Size(321, 27);
-            UsernameTXT.TabIndex = 11;
+            UsernameTXT.TabIndex = 1;
             // 
             // label6
             // 
@@ -75,7 +77,7 @@ namespace MenStore.PresentationLayer
             label6.Location = new Point(158, 198);
             label6.Name = "label6";
             label6.Size = new Size(132, 38);
-            label6.TabIndex = 5;
+            label6.TabIndex = 7;
             label6.Text = "Password";
             // 
             // label5
@@ -96,9 +98,30 @@ namespace MenStore.PresentationLayer
             label1.Location = new Point(304, 17);
             label1.Name = "label1";
             label1.Size = new Size(325, 70);
-            label1.TabIndex = 4;
+            label1.TabIndex = 5;
             label1.Text = "Login";
             label1.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(322, 325);
+            label2.Name = "label2";
+            label2.Size = new Size(198, 20);
+            label2.TabIndex = 8;
+            label2.Text = "Don't Have An Account Yet ?";
+            // 
+            // RegisterNow
+            // 
+            RegisterNow.AutoSize = true;
+            RegisterNow.Cursor = Cursors.Hand;
+            RegisterNow.ForeColor = Color.Navy;
+            RegisterNow.Location = new Point(519, 325);
+            RegisterNow.Name = "RegisterNow";
+            RegisterNow.Size = new Size(98, 20);
+            RegisterNow.TabIndex = 4;
+            RegisterNow.Text = "Register Now";
+            RegisterNow.Click += RegisterNow_Click;
             // 
             // LoginForm
             // 
@@ -106,6 +129,8 @@ namespace MenStore.PresentationLayer
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
             ClientSize = new Size(800, 450);
+            Controls.Add(RegisterNow);
+            Controls.Add(label2);
             Controls.Add(SubmitBTN);
             Controls.Add(PasswordTXT);
             Controls.Add(UsernameTXT);
@@ -126,5 +151,7 @@ namespace MenStore.PresentationLayer
         private Label label6;
         private Label label5;
         private Label label1;
+        private Label label2;
+        private Label RegisterNow;
     }
 }

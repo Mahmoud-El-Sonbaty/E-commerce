@@ -33,6 +33,7 @@
             loadToolStripMenuItem = new ToolStripMenuItem();
             navigateToolStripMenuItem = new ToolStripMenuItem();
             OrdersMasterGrid = new DataGridView();
+            logoutToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)OrdersMasterGrid).BeginInit();
             SuspendLayout();
@@ -49,7 +50,7 @@
             // 
             // actionToolStripMenuItem
             // 
-            actionToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { loadToolStripMenuItem });
+            actionToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { loadToolStripMenuItem, logoutToolStripMenuItem });
             actionToolStripMenuItem.Name = "actionToolStripMenuItem";
             actionToolStripMenuItem.Size = new Size(66, 24);
             actionToolStripMenuItem.Text = "Action";
@@ -57,7 +58,7 @@
             // loadToolStripMenuItem
             // 
             loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            loadToolStripMenuItem.Size = new Size(125, 26);
+            loadToolStripMenuItem.Size = new Size(224, 26);
             loadToolStripMenuItem.Text = "Load";
             loadToolStripMenuItem.Click += loadToolStripMenuItem_Click;
             // 
@@ -77,6 +78,13 @@
             OrdersMasterGrid.Size = new Size(800, 422);
             OrdersMasterGrid.TabIndex = 1;
             OrdersMasterGrid.CellContentClick += OrdersMasterGrid_CellContentClick;
+            // 
+            // logoutToolStripMenuItem
+            // 
+            logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
+            logoutToolStripMenuItem.Size = new Size(224, 26);
+            logoutToolStripMenuItem.Text = "Logout";
+            logoutToolStripMenuItem.Click += logoutToolStripMenuItem_Click;
             // 
             // OrderMasterForAdmin
             // 
@@ -102,5 +110,6 @@
         private ToolStripMenuItem actionToolStripMenuItem;
         private ToolStripMenuItem loadToolStripMenuItem;
         private ToolStripMenuItem navigateToolStripMenuItem;
+        private ToolStripMenuItem logoutToolStripMenuItem;
     }
 }

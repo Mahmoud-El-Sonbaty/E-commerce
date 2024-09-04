@@ -16,6 +16,7 @@ namespace MenStore.Application.Services.OrderMasterServices
         public GetOneOrderMasterDTO GetOneOrderMaster(int orderMasterId);
         public List<GetAllOrderMasterDTO> GetUserOrderMaster(int userId);
         public List<GetAllOrderMasterDTO> GetAllOrderMaster();
+        public List<GetAllOrderMasterDTO> GetAllOrderMasterAdminState(State state);
         public List<GetAllOrderMasterDTO> GetAllOrderMasterOnState(State state, int clientId);
         public int SaveChanges();
     }

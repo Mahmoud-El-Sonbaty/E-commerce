@@ -40,6 +40,8 @@
             label6 = new Label();
             PasswordTXT = new TextBox();
             SubmitBTN = new Button();
+            RegisterNow = new Label();
+            label7 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -155,12 +157,35 @@
             SubmitBTN.UseVisualStyleBackColor = false;
             SubmitBTN.Click += SubmitBTN_Click;
             // 
+            // RegisterNow
+            // 
+            RegisterNow.AutoSize = true;
+            RegisterNow.Cursor = Cursors.Hand;
+            RegisterNow.ForeColor = Color.Navy;
+            RegisterNow.Location = new Point(475, 426);
+            RegisterNow.Name = "RegisterNow";
+            RegisterNow.Size = new Size(81, 20);
+            RegisterNow.TabIndex = 19;
+            RegisterNow.Text = "Login Now";
+            RegisterNow.Click += RegisterNow_Click;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(278, 426);
+            label7.Name = "label7";
+            label7.Size = new Size(189, 20);
+            label7.TabIndex = 18;
+            label7.Text = "Already Have An Account ?";
+            // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
             ClientSize = new Size(800, 450);
+            Controls.Add(RegisterNow);
+            Controls.Add(label7);
             Controls.Add(SubmitBTN);
             Controls.Add(PasswordTXT);
             Controls.Add(UsernameTXT);
@@ -194,5 +219,7 @@
         private Label label6;
         private TextBox PasswordTXT;
         private Button SubmitBTN;
+        private Label RegisterNow;
+        private Label label7;
     }
 }

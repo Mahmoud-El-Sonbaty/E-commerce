@@ -14,15 +14,21 @@ namespace MenStore.PresentationLayer
 {
     public partial class LoginForm : Form
     {
-        public LoginForm()
+        public LoginForm(string? comingUsername = null, string? comingPassword = null)
         {
             container = AutoFac.Inject();
             InitializeComponent();
             userService = container.Resolve<IUserService>();// UserService object that saved in userService
+            //usernameToShow = comingUsername;
+            //passwordToShow = comingPassword;
+            UsernameTXT.Text = comingUsername ?? string.Empty;
+            PasswordTXT.Text = comingPassword ?? string.Empty;
 
         }
         IContainer container;
         IUserService userService;
+        //string? usernameToShow;
+        //string? passwordToShow;
         private void SubmitBTN_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(UsernameTXT.Text) || string.IsNullOrWhiteSpace(PasswordTXT.Text))
@@ -37,12 +43,13 @@ namespace MenStore.PresentationLayer
                 }
                 else
                 {
-                    MessageBox.Show("Welcome مع تحيات مستر سنباطي و ابناءه ");
+                    MessageBox.Show("Welcome\n مع تحيات مستر سنباطي و أبناءه ");
                     if (checkuser.IsAdmin)
                     {
                         //dashboard form
                         var productAdmin = new ProductForAdmin(checkuser.Id);
                         productAdmin.Show();
+                        this.Visible = false;
                     }
                     else
                     {
@@ -55,5 +62,12 @@ namespace MenStore.PresentationLayer
 
             }
         }
+
+        private void RegisterNow_Click(object sender, EventArgs e)
+        {
+            RegisterForm registerForm = new RegisterForm();
+            registerForm.Show();
+        }
+
     }
 }

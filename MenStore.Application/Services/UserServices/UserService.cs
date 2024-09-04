@@ -3,13 +3,14 @@ using MenStore.Application.Mapper;
 using MenStore.Models;
 using MenStore.DTO.User;
 using AutoMapper;
-
+using System.Text;
 namespace MenStore.Application.Services.UserServices
 {
     public class UserService : IUserService
     {
         private IUserRepository userRepository;
         private IMapper mapper;
+
         public UserService(IUserRepository _userRepository, IMapper _mapper)
         {
             userRepository = _userRepository;
@@ -23,14 +24,13 @@ namespace MenStore.Application.Services.UserServices
                 User User = userRepository.CheckUser(user.Username);
                 if (User == null)
                 {
-                    //msg box wrong USER
+                    // wrong USER
                 }
                 else if (User.Password == user.Password)
                 {
                     return mapper.Map<GetOneUserDTO>(User);
                 }
-                //msg box wrong password
-                
+                // wrong password
             }
             return null;
         }
@@ -40,14 +40,12 @@ namespace MenStore.Application.Services.UserServices
             if (user.Username != null && user.Password != null)
             {
                 User mappedUser = mapper.Map<User>(user);
-                // here we should encrypt the password before sending it
-                //mappedUser.Password = Encrypt(user.Password);
+                // here we should encrypt the password before storing it in DB
                 var Check = userRepository.CheckUser(user.Username);
                 if (Check == null)
                 {
                     return mapper.Map<GetOneUserDTO>(userRepository.Create(mappedUser));
                 }
-                //message box user already exisit
             }
             return null;
         }

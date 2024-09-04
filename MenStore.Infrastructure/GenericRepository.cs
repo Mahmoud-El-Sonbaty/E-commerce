@@ -18,9 +18,9 @@ namespace MenStore.Infrastructure
 
         public T Create(T entity)
         {
-            var x  = dbSet.Add(entity).Entity;
+            var createdEntity  = dbSet.Add(entity).Entity;
             context.SaveChanges();
-            return x;
+            return createdEntity;
         }
 
         public T Update(T entity)

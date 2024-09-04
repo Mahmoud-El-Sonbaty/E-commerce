@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MenStore.DTO.Product;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,34 +13,19 @@ namespace MenStore.PresentationLayer
 {
     public partial class OneProduct : Form
     {
-        public OneProduct()
+        public OneProduct(GetAllProductUserDTO productDTO)
         {
             InitializeComponent();
+            lblTitle.Text = productDTO.Title;
+            lblPrice.Text = productDTO.Price.ToString();
+            lblCategory.Text = productDTO.CategoryName;
+            lblUnits.Text = productDTO.UnitsInStock.ToString();
+            BoxPic.ImageLocation = productDTO.Image;
         }
-
-        private void label1_Click(object sender, EventArgs e)
+        
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

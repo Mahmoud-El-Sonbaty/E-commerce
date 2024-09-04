@@ -9,6 +9,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -20,9 +21,7 @@ namespace MenStore.PresentationLayer
         {
             InitializeComponent();
             container = AutoFac.Inject();
-            //IUserRepository userRepository = new UserRepository();
-            //userService=new UserService();
-            userService = container.Resolve<UserService>();
+            userService = container.Resolve<IUserService>();
         }
         IContainer container;
         IUserService userService;
@@ -34,19 +33,36 @@ namespace MenStore.PresentationLayer
                 MessageBox.Show("Please fill in all fields.");
             else
             {
-                CreateUserDTO createUserDTO = new CreateUserDTO(UsernameTXT.Text, PasswordTXT.Text, NameTXT.Text, PhoneTXT.Text, AddressTXT.Text, false);
-                var checkuser = userService.Register(createUserDTO);
-                if (checkuser == null)
+                string passwordPattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$";
+                bool testet = Regex.IsMatch(PasswordTXT.Text, passwordPattern);
+                if (!Regex.IsMatch(PasswordTXT.Text, passwordPattern))
                 {
-                    MessageBox.Show("user already exisit");
+                    MessageBox.Show("Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, and one digit.");
                 }
                 else
                 {
-                    MessageBox.Show("create user succefully");
+                    CreateUserDTO createUserDTO = new CreateUserDTO(UsernameTXT.Text, PasswordTXT.Text, NameTXT.Text, PhoneTXT.Text, AddressTXT.Text, false);
+                    var checkuser = userService.Register(createUserDTO);
+                    if (checkuser == null)
+                    {
+                        MessageBox.Show("user already exisit");
+                    }
+                    else
+                    {
+                        MessageBox.Show("User Created Successfully");
+                        LoginForm loginFormcs = new LoginForm(UsernameTXT.Text, PasswordTXT.Text);
+                        loginFormcs.Show();
+                    }
                 }
             }
-            LoginForm loginFormcs = new LoginForm();
-            loginFormcs.Show();
+
+        }
+
+        private void RegisterNow_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+            this.Visible = false;
         }
     }
 }

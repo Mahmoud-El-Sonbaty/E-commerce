@@ -87,12 +87,14 @@ namespace MenStore.PresentationLayer
                     int orderMasterId = (int)senderGrid.Rows[e.RowIndex].Cells[0].Value;
                     if (buttonColumn.Name == "SubmitBtn")
                     {
+                        masterService.UpdateOrderMaster(new GetOneOrderMasterDTO() { Id = orderMaster.Id, OrderState = (int)State.Processing, ClientId = orderMaster.ClientId});
+                        masterService.SaveChanges();
                         Debug.WriteLine("subbbbmit");
                     }
                     else if (buttonColumn.Name == "ShowBtn")
                     {
                         var orderDetails = detailService.GetAllDetailsOfMaster(orderMasterId);
-                        DetailDataGrid.DataSource = orderDetails;
+                        DetailDataGrid.DataSource = orderDetails; // here it doesn't show the real quantity in the database
                         try
                         {
 
@@ -172,6 +174,7 @@ namespace MenStore.PresentationLayer
                 {
                     if (buttonColumn.Name == "DeleteDetailBtn")
                     {
+                        //detailService.DeleteOrderDetail()
                         Debug.WriteLine("delete detail");
                     }
                 }
@@ -182,8 +185,7 @@ namespace MenStore.PresentationLayer
                     Debug.WriteLine(buttonColumn.Name);
                 }
 
-                //Debug.WriteLine(yesorder.Total);
-                else Debug.WriteLine("nooooot order");
+                else Debug.WriteLine("not order");
             }
         }
 

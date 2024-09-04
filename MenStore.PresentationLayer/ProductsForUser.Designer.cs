@@ -39,13 +39,14 @@ namespace MenStore.PresentationLayer
             btnHome = new Button();
             btnNext = new Button();
             PanelProducts = new Panel();
+            logoutToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { loadToolStripMenuItem, cartToolStripMenuItem, txtSearch, categorySelect });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { loadToolStripMenuItem, cartToolStripMenuItem, txtSearch, categorySelect, logoutToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1271, 32);
@@ -114,6 +115,13 @@ namespace MenStore.PresentationLayer
             PanelProducts.Size = new Size(1247, 537);
             PanelProducts.TabIndex = 4;
             // 
+            // logoutToolStripMenuItem
+            // 
+            logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
+            logoutToolStripMenuItem.Size = new Size(70, 28);
+            logoutToolStripMenuItem.Text = "Logout";
+            logoutToolStripMenuItem.Click += logoutToolStripMenuItem_Click;
+            // 
             // ProductsForUser
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -144,5 +152,6 @@ namespace MenStore.PresentationLayer
         private Button btnNext;
         private Panel PanelProducts;
         private ToolStripMenuItem cartToolStripMenuItem;
+        private ToolStripMenuItem logoutToolStripMenuItem;
     }
 }

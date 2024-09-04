@@ -28,8 +28,8 @@ namespace MenStore.PresentationLayer
             categorySevice = container.Resolve<ICategoryService>();
             List<GetCategoryDTO> categories = categorySevice.GetAllCategory();
             //mapper=container.Resolve<Mapper>();
-            GetCategoryDTO allCategory = new GetCategoryDTO() { Id = -1, Name = "All"};
-            categorySelect.Items.Add(allCategory); 
+            GetCategoryDTO allCategory = new GetCategoryDTO() { Id = -1, Name = "All" };
+            categorySelect.Items.Add(allCategory);
             foreach (GetCategoryDTO item in categories)
             {
 
@@ -309,6 +309,20 @@ namespace MenStore.PresentationLayer
         private void categorySelect_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+            this.Close();
+        }
+
+        private void ordersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderMasterForAdmin orderMasterForAdmin = new OrderMasterForAdmin();
+            orderMasterForAdmin.Show();
+            this.Close();
         }
     }
 }

@@ -161,7 +161,7 @@ namespace MenStore.PresentationLayer
                 pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
                 pictureBox.Location = new Point(0, 0); // Position at the top of the panel
                 card.Controls.Add(pictureBox);
-
+                pictureBox.Click += (sender, e) => { OneProduct oneProduct = new OneProduct(product/*, activeUserId*/); oneProduct.Show(); };
                 // Title Label
                 Label lblTitle = new Label();
                 lblTitle.Text = product.Title;
@@ -188,17 +188,18 @@ namespace MenStore.PresentationLayer
                 btnAdd.Click += (s, e) => AddToCart(product); // Hook up the event handler
                 card.Controls.Add(btnAdd);
 
+                card.Click += (sender, e) => { OneProduct oneProduct = new OneProduct(product/*, activeUserId*/); oneProduct.Show(); };
                 // Add the card to the panel
                 PanelProducts.Controls.Add(card);
+
             }
         }
 
         private void AddToCart(GetAllProductUserDTO product)
         {
-            var iu = masterService.GetAllOrderMasterOnState(State.InCart, activeUserId);//here
-            if (iu.Count == 0)
+            var checkExistingMaster = masterService.GetAllOrderMasterOnState(State.InCart, activeUserId);//here
+            if (checkExistingMaster.Count == 0)
             {
-
                 GetOneOrderMasterDTO createdMaster = masterService
                     .CreateOrderMaster(new CreateOrderMasterDTO() { ClientId = activeUserId, OrderDateTime = DateTime.Now, Total = product.Price });
                 //masterService.SaveChanges();
@@ -211,19 +212,18 @@ namespace MenStore.PresentationLayer
             }
             else
             {
-                GetAllOrderMasterDTO currentOrderMaster = iu.First();
-                GetOneOrderDetailDTO checkDetail = detailService.GetOneOrderDetailByProduct(iu.First().Id, product.Id);
+                GetAllOrderMasterDTO currentOrderMaster = checkExistingMaster.First();
+                GetOneOrderDetailDTO checkDetail = detailService.GetOneOrderDetailByProduct(checkExistingMaster.First().Id, product.Id);
                 if (checkDetail == null)
                 {
                     GetOneOrderDetailDTO createdDetail =
-                        detailService.CreateOrderDetail(new CreateOrderDetailDTO(iu.First().Id, product.Id, 1, product.Price));
+                        detailService.CreateOrderDetail(new CreateOrderDetailDTO(checkExistingMaster.First().Id, product.Id, 1, product.Price));
                     GetOneOrderMasterDTO updatedMaster =
                         masterService.UpdateOrderMaster(new GetOneOrderMasterDTO()
                         {
                             Id = currentOrderMaster.Id,
                             ClientId = currentOrderMaster.ClientId,
                             Total = currentOrderMaster.Total + product.Price
-
                         });
                     MessageBox.Show("Product Added Successfully", "Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -247,18 +247,6 @@ namespace MenStore.PresentationLayer
                 }
             }
         }
-
-        //private void AddToCart(product.Id)
-        //private Image LoadProductImage(byte[] imageData)
-        //{
-        //    if (imageData == null || imageData.Length == 0)
-        //        return Properties.Resources.DefaultImage; 
-
-        //    using (var ms = new MemoryStream(imageData))
-        //    {
-        //        return Image.FromStream(ms);
-        //    }
-        //}
 
         private void showProductsOfCategory(int CategoryID, int count, int pageNumber)
         {
@@ -371,6 +359,13 @@ namespace MenStore.PresentationLayer
         {
             UserCart userCart = new UserCart(activeUserId);
             userCart.Show();
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+            this.Close();
         }
     }
 }

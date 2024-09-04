@@ -1,3 +1,4 @@
+using System.Configuration;
 namespace MenStore.PresentationLayer
 {
     internal static class Program

@@ -2,6 +2,7 @@
 using MenStore.Application.Contracts;
 using MenStore.DTO.Product;
 using MenStore.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -89,8 +90,9 @@ namespace MenStore.Application.Services.ProductServices
         }
 
         public GetOneProductDTO GetoneOfProduct(int id)
-        {
-            var products = productRepository.GetOne(id);
+        {// here get one uses find which cannot be set as no tracking so i had to use getall the firstordefault
+            //var products = productRepository.GetOne(id);
+            var products = productRepository.GetAll().AsNoTracking().FirstOrDefault(P => P.Id == id);
             return mapper.Map<GetOneProductDTO>(products);
         }
 

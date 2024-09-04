@@ -3,7 +3,11 @@ using AutoMapper;
 using MenStore.Application.Mapper;
 using MenStore.Application.Services.OrderDetailServices;
 using MenStore.Application.Services.OrderMasterServices;
+using MenStore.Application.Services.ProductServices;
+using MenStore.DTO.OrderDetail;
 using MenStore.DTO.OrderMaster;
+using MenStore.DTO.Product;
+using MenStore.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,24 +28,26 @@ namespace MenStore.PresentationLayer
             container = AutoFac.Inject();
             orderMasterService = container.Resolve<IOrderMasterService>();
             orderDetailService = container.Resolve<IOrderDetailService>();
+            productService = container.Resolve<IProductService>();
             bindingSource = new BindingSource();
             mapper = container.Resolve<IMapper>();
         }
         Autofac.IContainer container;
         IOrderMasterService orderMasterService;
         IOrderDetailService orderDetailService;
+        IProductService productService;
         BindingSource bindingSource;
         IMapper mapper;
         private void loadToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DataGridViewButtonColumn addToCartColumn = new DataGridViewButtonColumn();
-            addToCartColumn.Text = "Process Order";
-            addToCartColumn.HeaderText = "Process Order";
-            //addToCartColumn.DataPropertyName = "Name";
-            List<GetAllOrderMasterDTO> allOrderMaster = orderMasterService.GetAllOrderMaster();
+            DataGridViewButtonColumn processOrderColumn = new DataGridViewButtonColumn();
+            processOrderColumn.Text = "Process Order";
+            processOrderColumn.HeaderText = "Process Order";
+            processOrderColumn.UseColumnTextForButtonValue = true;
+            List<GetAllOrderMasterDTO> allOrderMaster = orderMasterService.GetAllOrderMasterAdminState(State.Processing);
             bindingSource.DataSource = allOrderMaster;
             OrdersMasterGrid.DataSource = bindingSource;
-            OrdersMasterGrid.Columns.Add(addToCartColumn);
+            OrdersMasterGrid.Columns.Add(processOrderColumn);
             OrdersMasterGrid.Columns[0].ReadOnly = true;
             OrdersMasterGrid.AllowUserToAddRows = false;
             OrdersMasterGrid.AllowUserToDeleteRows = false;
@@ -56,13 +62,32 @@ namespace MenStore.PresentationLayer
                 //int orderMasterId = (int)senderGrid.Rows[e.RowIndex].Cells[0].Value;
                 if (OrdersMasterGrid.Rows[e.RowIndex].DataBoundItem is GetAllOrderMasterDTO yesorder)
                 {
-                    orderMasterService.UpdateOrderMaster(mapper.Map<GetOneOrderMasterDTO>(yesorder));
+                    //orderMasterService.UpdateOrderMaster(mapper.Map<GetOneOrderMasterDTO>(yesorder));
+                    orderMasterService.UpdateOrderMaster(new GetOneOrderMasterDTO() { Id = yesorder.Id, ClientId = yesorder.ClientId,
+                    OrderState = yesorder.OrderState+1});
                     orderMasterService.SaveChanges();
+                    List<GetAllOrderDetailDTO> orderDetails = orderDetailService.GetAllDetailsOfMaster(yesorder.Id);
+                    foreach (GetAllOrderDetailDTO detail in orderDetails)
+                    {// here throw tracking exception after the first loop if we processed an order before that have the same product because
+                        //the tracking error
+                        GetOneProductDTO product = productService.GetoneOfProduct(detail.ProductId); 
+                        productService.UpdateProduct(new GetAllProductDTO(detail.ProductId, product.Title, product.Price, product.CategoryID, 
+                            product.CategoryName, product.UnitsInStock - detail.Quantity));
+                        productService.SaveChanges();
+                    }
+                    OrdersMasterGrid.Refresh();
                 }
-                    
-                    //Debug.WriteLine(yesorder.Total);
+
+                //Debug.WriteLine(yesorder.Total);
                 else Debug.WriteLine("yesorder");
             }
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+            this.Close();
         }
     }
 }
